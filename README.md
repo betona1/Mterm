@@ -71,3 +71,9 @@ dart run flutter_launcher_icons       # 아이콘을 바꿨을 때
 - 영어(철자·약어): 대소문자·공백·하이픈·아포스트로피 무시. `termAlts`/`abbrAlts` 에 적은 대체 표기도 정답.
 - 한국어 뜻(하드 모드): 쉼표·슬래시로 나뉜 후보 중 하나와 같거나, 두 글자 이상이면서 서로 포함하면 정답.
 - 약어가 같은 용어가 둘이면 「약어 → 용어」 문제가 애매해지므로 테스트가 막는다. 한쪽 약어를 비우거나 다른 표기로 바꾼다.
+
+## 깃허브 자동 업데이트
+
+저장소: https://github.com/betona1/Mterm (공개). main 에 푸시하면 Actions 가 APK 를 릴리스에 올리고 PWA 를 https://betona1.github.io/Mterm/ 에 배포한다.
+앱은 켜질 때 최신 릴리스를 확인해 「다운로드」 버튼을 띄운다(lib/core/update_check.dart). 같은 서명 키(android/mterm-release.jks, git 제외)라 덮어 설치된다.
+처음 한 번은 `bash tools/setup_github.sh` 로 gh 권한(workflow)·Secrets·워크플로 푸시를 마친다.
