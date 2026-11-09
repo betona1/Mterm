@@ -1,0 +1,91 @@
+# main 에 푸시될 때마다
+#   1) 안드로이드 APK 를 같은 서명 키로 빌드해 깃허브 릴리스(v<버전>+<실행번호>)에 올린다 → 앱이 켜질 때 업데이트 안내
+#   2) 웹(PWA) 을 GitHub Pages 에 배포한다 → https://betona1.github.io/Mterm/  (설치한 PWA 는 자동 갱신)
+#
+# 필요한 Secrets: KEYSTORE_BASE64, KEYSTORE_PASSWORD, KEY_PASSWORD, KEY_ALIAS  (gh secret set 으로 넣음)
+name: release
+
+on:
+  push:
+    branches: [main]
+    paths-ignore: ['README.md', 'docs/**']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: release
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    outputs:
+      tag: ${{ steps.ver.outputs.tag }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+
+      - name: 버전 정하기 (pubspec 버전 + 실행 번호)
+        id: ver
+        run: |
+          VER=$(grep -E '^version:' pubspec.yaml | sed -E 's/version: *([0-9.]+).*/\1/')
+          echo "name=$VER" >> "$GITHUB_OUTPUT"
+          echo "code=${{ github.run_number }}" >> "$GITHUB_OUTPUT"
+          echo "tag=v$VER+${{ github.run_number }}" >> "$GITHUB_OUTPUT"
+
+      - name: 서명 키 복원
+        run: |
+          echo "${{ secrets.KEYSTORE_BASE64 }}" | base64 -d > android/mterm-release.jks
+          cat > android/key.properties <<EOF
+          storePassword=${{ secrets.KEYSTORE_PASSWORD }}
+          keyPassword=${{ secrets.KEY_PASSWORD }}
+          keyAlias=${{ secrets.KEY_ALIAS }}
+          storeFile=../mterm-release.jks
+          EOF
+
+      - run: flutter pub get
+      - run: flutter test
+
+      - name: APK 빌드
+        run: flutter build apk --release --build-name=${{ steps.ver.outputs.name }} --build-number=${{ steps.ver.outputs.code }}
+
+      - name: 웹(PWA) 빌드
+        run: flutter build web --release --base-href /Mterm/ --pwa-strategy offline-first
+
+      - name: 릴리스 올리기
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.ver.outputs.tag }}
+          name: 메디텀 ${{ steps.ver.outputs.tag }}
+          body: |
+            ${{ github.event.head_commit.message }}
+
+            APK 를 받아 열면 덮어 설치돼요. PWA: https://betona1.github.io/Mterm/
+          files: build/app/outputs/flutter-apk/app-release.apk
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: build/web
+
+  pages:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - id: deploy
+        uses: actions/deploy-pages@v4

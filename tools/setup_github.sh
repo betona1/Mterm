@@ -8,7 +8,11 @@ set -e
 cd "$(dirname "$0")/.."
 
 echo "== 1) gh 권한 (workflow) =="
-gh auth refresh -h github.com -s workflow,repo
+if gh auth status 2>&1 | grep -q "workflow"; then
+  echo "이미 workflow 권한이 있어요 — 건너뜀"
+else
+  gh auth refresh -h github.com -s workflow,repo
+fi
 
 echo "== 2) Secrets =="
 . <(sed 's/^/export KP_/' android/key.properties)
