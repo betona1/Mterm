@@ -56,6 +56,21 @@ jobs:
           storeFile=../mterm-release.jks
           EOF
 
+      - name: Gradle·Maven 캐시
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.gradle/caches
+            ~/.gradle/wrapper
+            ~/.m2/repository
+          key: gradle-${{ runner.os }}-${{ hashFiles('android/**/*.gradle*', 'android/gradle/wrapper/gradle-wrapper.properties', 'pubspec.lock') }}
+          restore-keys: gradle-${{ runner.os }}-
+
+      - name: 코틀린 컴파일러 미리 받기 (Central→GitHub 리다이렉트 504 회피)
+        # 2.2.20 = Flutter 도구의 Gradle 플러그인(:gradle 포함 빌드)이 쓰는 버전, 2.3.20 = 이 앱(android/settings.gradle.kts)
+        run: |
+          for v in 2.2.20 2.3.20; do bash tools/ci_prefetch_kotlin.sh "$v"; done
+
       - run: flutter pub get
       - run: flutter test
 
