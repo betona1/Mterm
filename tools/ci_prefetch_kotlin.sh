@@ -41,21 +41,21 @@ for A in $ARTIFACTS; do
   done
 done
 
-# Gradle 초기화 스크립트: 모든 빌드(포함 빌드 포함)의 저장소 맨 앞에 mavenLocal
+# Gradle 초기화 스크립트: settings 의 dependencyResolutionManagement 저장소 맨 앞에 mavenLocal
+# (Flutter 도구의 Gradle 플러그인 포함 빌드가 FAIL_ON_PROJECT_REPOS 로 여기서만 저장소를 정한다.)
+# ⚠️ pluginManagement 나 프로젝트 repositories 는 건드리지 않는다 — 건드리면 기본 gradlePluginPortal 이 사라져
+#    dev.flutter.flutter-plugin-loader 를 못 찾는다 (2026-11-09 3번째 빌드 실패). 앱 쪽은 android/build.gradle.kts 에 직접 넣었다.
 mkdir -p "$HOME/.gradle/init.d"
-cat > "$HOME/.gradle/init.d/maven-local-first.gradle" <<'EOF'
-def putLocalFirst = { RepositoryHandler h ->
-    def local = h.mavenLocal()
-    h.remove(local)
-    h.addFirst(local)
-}
-allprojects {
-    putLocalFirst(repositories)
-    putLocalFirst(buildscript.repositories)
-}
+cat > "$HOME/.gradle/init.d/maven-local-first.gradle" <<'GRADLE'
 settingsEvaluated { s ->
-    putLocalFirst(s.pluginManagement.repositories)
-    try { putLocalFirst(s.dependencyResolutionManagement.repositories) } catch (Throwable ignored) {}
+    try {
+        def h = s.dependencyResolutionManagement.repositories
+        if (!h.isEmpty()) {
+            def local = h.mavenLocal()
+            h.remove(local)
+            h.addFirst(local)
+        }
+    } catch (Throwable ignored) {}
 }
-EOF
+GRADLE
 echo "init.d/maven-local-first.gradle 작성"
