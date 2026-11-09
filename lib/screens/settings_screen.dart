@@ -4,6 +4,7 @@ import '../core/app_scope.dart';
 import '../core/app_theme.dart';
 import '../core/characters.dart';
 import '../core/sfx.dart';
+import '../core/update_check.dart';
 
 class SettingsScreen extends StatelessWidget {
   const SettingsScreen({super.key});
@@ -106,6 +107,30 @@ class SettingsScreen extends StatelessWidget {
                     ),
                   ],
                 ),
+              ),
+            ),
+            const SizedBox(height: 8),
+            // 깃허브 릴리스에서 새 APK 확인 (안드로이드). 켤 때도 자동으로 확인한다.
+            FutureBuilder<String>(
+              future: UpdateCheck.currentVersion(),
+              builder: (context, snap) => FilledButton.icon(
+                onPressed: () async {
+                  final m = ScaffoldMessenger.of(context);
+                  m.showSnackBar(const SnackBar(content: Text('깃허브에서 새 버전을 확인하는 중…'), duration: Duration(seconds: 2), behavior: SnackBarBehavior.floating));
+                  final r = await UpdateCheck.run(context);
+                  final msg = switch (r) {
+                    UpdateResult.upToDate => '지금이 최신 버전이에요 ✅',
+                    UpdateResult.shown => null,
+                    UpdateResult.unsupported => '웹 버전은 새로고침하면 자동으로 최신이 돼요',
+                    UpdateResult.failed => '확인하지 못했어요. 인터넷 연결이나 깃허브 릴리스를 확인해 주세요',
+                  };
+                  if (msg != null) {
+                    m.hideCurrentSnackBar();
+                    m.showSnackBar(SnackBar(content: Text(msg), behavior: SnackBarBehavior.floating));
+                  }
+                },
+                icon: const Icon(Icons.system_update_rounded),
+                label: Text('업데이트 확인 (현재 ${snap.data ?? '…'})'),
               ),
             ),
             const SizedBox(height: 8),

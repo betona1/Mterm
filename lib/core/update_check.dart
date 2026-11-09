@@ -13,30 +13,45 @@ import 'characters.dart';
 /// GitHub Actions(.github/workflows/release.yml) 가 main 에 푸시될 때마다 APK 를 빌드해
 /// `v<버전>+<빌드번호>` 태그의 릴리스에 올린다. 앱은 켜질 때 최신 릴리스를 보고 더 새 것이면 안내한다.
 /// 설치는 브라우저가 내려받은 APK 를 눌러서 — 같은 서명 키라 덮어 설치가 된다.
+enum UpdateResult { unsupported, upToDate, shown, failed }
+
 class UpdateCheck {
   UpdateCheck._();
 
   static const repo = 'betona1/Mterm';
   static const _api = 'https://api.github.com/repos/$repo/releases/latest';
 
-  /// 홈이 뜬 뒤 한 번 부른다. 실패하면 조용히 넘어간다.
-  static Future<void> run(BuildContext context) async {
-    if (kIsWeb || defaultTargetPlatform != TargetPlatform.android) return;
+  /// 홈이 뜬 뒤 한 번, 그리고 설정의 「업데이트 확인」 버튼에서 부른다. 실패하면 조용히 넘어간다.
+  static Future<UpdateResult> run(BuildContext context) async {
+    if (kIsWeb || defaultTargetPlatform != TargetPlatform.android) return UpdateResult.unsupported;
     try {
       final info = await PackageInfo.fromPlatform();
       final res = await http.get(Uri.parse(_api), headers: {'Accept': 'application/vnd.github+json'}).timeout(const Duration(seconds: 8));
-      if (res.statusCode != 200) return;
+      if (res.statusCode != 200) return UpdateResult.failed;
       final j = jsonDecode(res.body) as Map<String, dynamic>;
       final tag = (j['tag_name'] as String? ?? '').replaceFirst('v', '');
       final assets = (j['assets'] as List? ?? const []).cast<Map<String, dynamic>>();
       final apk = assets.cast<Map<String, dynamic>?>().firstWhere((a) => (a!['name'] as String).endsWith('.apk'), orElse: () => null);
-      if (apk == null) return;
+      if (apk == null) return UpdateResult.failed;
       final latest = _parse(tag);
       final mine = _parse('${info.version}+${info.buildNumber}');
-      if (!_newer(latest, mine)) return;
-      if (!context.mounted) return;
+      if (!_newer(latest, mine)) return UpdateResult.upToDate;
+      if (!context.mounted) return UpdateResult.failed;
       await _ask(context, tag, apk['browser_download_url'] as String, (j['body'] as String? ?? '').trim(), j['html_url'] as String? ?? '');
-    } catch (_) {}
+      return UpdateResult.shown;
+    } catch (_) {
+      return UpdateResult.failed;
+    }
+  }
+
+  /// 현재 설치된 버전 문자열 (설정 화면 표시용)
+  static Future<String> currentVersion() async {
+    try {
+      final i = await PackageInfo.fromPlatform();
+      return '${i.version}+${i.buildNumber}';
+    } catch (_) {
+      return '1.0.0';
+    }
   }
 
   /// "1.2.3+45" → [1,2,3,45]
