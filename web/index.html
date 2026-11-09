@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+  <meta name="description" content="리링과 함께 약어·스펠링·의미를 게임처럼 외우는 간호사용 의학용어 앱">
+  <meta name="theme-color" content="#5ECDBE">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="메디텀">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>메디텀 - 간호 의학용어 게임</title>
+  <link rel="manifest" href="manifest.json">
+
+  <style>
+    html, body { margin: 0; padding: 0; height: 100%; background: #F4FBF9; }
+    #splash {
+      position: fixed; inset: 0; display: flex; flex-direction: column;
+      align-items: center; justify-content: center; gap: 16px;
+      background: linear-gradient(180deg, #F4FBF9 0%, #DFF5F0 100%);
+      font-family: -apple-system, "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+      color: #1F3B3A; transition: opacity .35s ease;
+    }
+    #splash img { width: 128px; height: 128px; border-radius: 28px; box-shadow: 0 12px 30px rgba(56,170,160,.35); }
+    #splash b { font-size: 22px; letter-spacing: -0.5px; }
+    #splash span { font-size: 14px; opacity: .7; }
+    .dots::after { content: "…"; animation: blink 1.2s infinite; }
+    @keyframes blink { 0%{opacity:.2} 50%{opacity:1} 100%{opacity:.2} }
+  </style>
+</head>
+<body>
+  <div id="splash">
+    <img src="icons/Icon-192.png" alt="메디텀">
+    <b>메디텀</b>
+    <span class="dots">리링이 차트를 준비하고 있어요</span>
+  </div>
+  <script>
+    // Flutter 첫 프레임이 그려지면 스플래시를 걷는다
+    window.addEventListener('flutter-first-frame', function () {
+      var s = document.getElementById('splash');
+      if (!s) return;
+      s.style.opacity = '0';
+      setTimeout(function () { s.remove(); }, 400);
+    });
+  </script>
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>

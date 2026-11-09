@@ -1,0 +1,51 @@
+name: mterm
+description: "메디텀 - 리링과 함께하는 간호 의학용어 게임 (약어·스펠링·의미)"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  shared_preferences: ^2.5.5
+  audioplayers: ^6.8.1
+  # 자동 암기 화면이 넘어가는 동안 태블릿 화면이 꺼지지 않게
+  wakelock_plus: ^1.8.0
+  http: ^1.6.0
+  url_launcher: ^6.3.3
+  package_info_plus: ^10.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+
+# 런처 아이콘: tools/make_icon.py 가 만든 리링 간호사 그림. 바꾼 뒤엔
+#   dart run flutter_launcher_icons
+flutter_launcher_icons:
+  android: true
+  ios: true
+  remove_alpha_ios: true
+  image_path: assets/icon/app_icon.png
+  adaptive_icon_background: "#5ECDBE"
+  adaptive_icon_foreground: assets/icon/app_icon_fg.png
+  web:
+    generate: false
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    # 용어 사전 (tools/seed_terms.py 기본 데이터 + tools/pdf_to_terms.py 로 PDF 에서 추가)
+    - assets/data/
+    # VAVELING 친구 9명 (병동 안내 캐릭터)
+    - assets/images/characters/
+    # 리링 간호사 마스코트 (tools/make_icon.py)
+    - assets/images/mascot/
+    # 효과음 (VAVELING 과 같은 장난감 실로폰 소리)
+    - assets/sounds/

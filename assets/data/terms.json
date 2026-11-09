@@ -1,0 +1,5237 @@
+{
+ "version": 1,
+ "categories": [
+  {
+   "id": "vital",
+   "name": "활력징후·기본",
+   "emoji": "🩺",
+   "guide": "liling",
+   "color": "#5ECDBE"
+  },
+  {
+   "id": "rx",
+   "name": "처방·투약 약어",
+   "emoji": "💊",
+   "guide": "doolin",
+   "color": "#F08C6C"
+  },
+  {
+   "id": "anatomy",
+   "name": "해부·신체",
+   "emoji": "🦴",
+   "guide": "hyeonwoo",
+   "color": "#8A6A4A"
+  },
+  {
+   "id": "symptom",
+   "name": "증상",
+   "emoji": "🤒",
+   "guide": "mei",
+   "color": "#D9713F"
+  },
+  {
+   "id": "disease",
+   "name": "질환",
+   "emoji": "🏥",
+   "guide": "shanling",
+   "color": "#3E8E6A"
+  },
+  {
+   "id": "test",
+   "name": "검사",
+   "emoji": "🔬",
+   "guide": "lingki",
+   "color": "#4FA3E0"
+  },
+  {
+   "id": "care",
+   "name": "간호·처치",
+   "emoji": "🩹",
+   "guide": "moa",
+   "color": "#8C7BE8"
+  },
+  {
+   "id": "dept",
+   "name": "부서·직종",
+   "emoji": "🏷️",
+   "guide": "longyue",
+   "color": "#E88AA8"
+  }
+ ],
+ "terms": [
+  {
+   "id": "blood_pressure",
+   "term": "blood pressure",
+   "termAlts": [],
+   "abbr": "BP",
+   "abbrAlts": [],
+   "ko": "혈압",
+   "cat": "vital"
+  },
+  {
+   "id": "heart_rate",
+   "term": "heart rate",
+   "termAlts": [],
+   "abbr": "HR",
+   "abbrAlts": [],
+   "ko": "심박수",
+   "cat": "vital"
+  },
+  {
+   "id": "respiratory_rate",
+   "term": "respiratory rate",
+   "termAlts": [],
+   "abbr": "RR",
+   "abbrAlts": [],
+   "ko": "호흡수",
+   "cat": "vital"
+  },
+  {
+   "id": "body_temperature",
+   "term": "body temperature",
+   "termAlts": [],
+   "abbr": "BT",
+   "abbrAlts": [],
+   "ko": "체온",
+   "cat": "vital"
+  },
+  {
+   "id": "pulse_rate",
+   "term": "pulse rate",
+   "termAlts": [],
+   "abbr": "PR",
+   "abbrAlts": [],
+   "ko": "맥박수",
+   "cat": "vital"
+  },
+  {
+   "id": "oxygen_saturation",
+   "term": "oxygen saturation",
+   "termAlts": [],
+   "abbr": "SpO2",
+   "abbrAlts": [],
+   "ko": "산소포화도",
+   "cat": "vital"
+  },
+  {
+   "id": "vital_signs",
+   "term": "vital signs",
+   "termAlts": [],
+   "abbr": "V/S",
+   "abbrAlts": [],
+   "ko": "활력징후",
+   "cat": "vital"
+  },
+  {
+   "id": "blood_sugar_test",
+   "term": "blood sugar test",
+   "termAlts": [],
+   "abbr": "BST",
+   "abbrAlts": [],
+   "ko": "혈당검사",
+   "cat": "vital"
+  },
+  {
+   "id": "intake_and_output",
+   "term": "intake and output",
+   "termAlts": [],
+   "abbr": "I/O",
+   "abbrAlts": [],
+   "ko": "섭취량과 배설량",
+   "cat": "vital"
+  },
+  {
+   "id": "body_weight",
+   "term": "body weight",
+   "termAlts": [],
+   "abbr": "BW",
+   "abbrAlts": [],
+   "ko": "체중",
+   "cat": "vital"
+  },
+  {
+   "id": "height",
+   "term": "height",
+   "termAlts": [],
+   "abbr": "Ht",
+   "abbrAlts": [],
+   "ko": "신장, 키",
+   "cat": "vital"
+  },
+  {
+   "id": "body_mass_index",
+   "term": "body mass index",
+   "termAlts": [],
+   "abbr": "BMI",
+   "abbrAlts": [],
+   "ko": "체질량지수",
+   "cat": "vital"
+  },
+  {
+   "id": "level_of_consciousness",
+   "term": "level of consciousness",
+   "termAlts": [],
+   "abbr": "LOC",
+   "abbrAlts": [],
+   "ko": "의식수준",
+   "cat": "vital"
+  },
+  {
+   "id": "glasgow_coma_scale",
+   "term": "Glasgow Coma Scale",
+   "termAlts": [],
+   "abbr": "GCS",
+   "abbrAlts": [],
+   "ko": "글래스고 혼수척도",
+   "cat": "vital"
+  },
+  {
+   "id": "numeric_rating_scale",
+   "term": "numeric rating scale",
+   "termAlts": [],
+   "abbr": "NRS",
+   "abbrAlts": [],
+   "ko": "숫자 통증 척도",
+   "cat": "vital"
+  },
+  {
+   "id": "postoperative_day",
+   "term": "postoperative day",
+   "termAlts": [],
+   "abbr": "POD",
+   "abbrAlts": [],
+   "ko": "수술 후 일수",
+   "cat": "vital"
+  },
+  {
+   "id": "hospital_day",
+   "term": "hospital day",
+   "termAlts": [],
+   "abbr": "HOD",
+   "abbrAlts": [],
+   "ko": "입원 일수",
+   "cat": "vital"
+  },
+  {
+   "id": "admission",
+   "term": "admission",
+   "termAlts": [],
+   "abbr": "Adm",
+   "abbrAlts": [],
+   "ko": "입원",
+   "cat": "vital"
+  },
+  {
+   "id": "discharge",
+   "term": "discharge",
+   "termAlts": [],
+   "abbr": "D/C",
+   "abbrAlts": [],
+   "ko": "퇴원",
+   "cat": "vital"
+  },
+  {
+   "id": "treatment",
+   "term": "treatment",
+   "termAlts": [],
+   "abbr": "Tx",
+   "abbrAlts": [],
+   "ko": "치료",
+   "cat": "vital"
+  },
+  {
+   "id": "diagnosis",
+   "term": "diagnosis",
+   "termAlts": [],
+   "abbr": "Dx",
+   "abbrAlts": [],
+   "ko": "진단",
+   "cat": "vital"
+  },
+  {
+   "id": "history",
+   "term": "history",
+   "termAlts": [],
+   "abbr": "Hx",
+   "abbrAlts": [],
+   "ko": "병력",
+   "cat": "vital"
+  },
+  {
+   "id": "symptom",
+   "term": "symptom",
+   "termAlts": [],
+   "abbr": "Sx",
+   "abbrAlts": [],
+   "ko": "증상",
+   "cat": "vital"
+  },
+  {
+   "id": "prognosis",
+   "term": "prognosis",
+   "termAlts": [],
+   "abbr": "Px",
+   "abbrAlts": [],
+   "ko": "예후",
+   "cat": "vital"
+  },
+  {
+   "id": "chief_complaint",
+   "term": "chief complaint",
+   "termAlts": [],
+   "abbr": "C/C",
+   "abbrAlts": [],
+   "ko": "주호소",
+   "cat": "vital"
+  },
+  {
+   "id": "present_illness",
+   "term": "present illness",
+   "termAlts": [],
+   "abbr": "PI",
+   "abbrAlts": [],
+   "ko": "현병력",
+   "cat": "vital"
+  },
+  {
+   "id": "past_history",
+   "term": "past history",
+   "termAlts": [],
+   "abbr": "PHx",
+   "abbrAlts": [],
+   "ko": "과거력",
+   "cat": "vital"
+  },
+  {
+   "id": "family_history",
+   "term": "family history",
+   "termAlts": [],
+   "abbr": "FHx",
+   "abbrAlts": [],
+   "ko": "가족력",
+   "cat": "vital"
+  },
+  {
+   "id": "review_of_systems",
+   "term": "review of systems",
+   "termAlts": [],
+   "abbr": "ROS",
+   "abbrAlts": [],
+   "ko": "계통별 문진",
+   "cat": "vital"
+  },
+  {
+   "id": "nothing_by_mouth",
+   "term": "nothing by mouth",
+   "termAlts": [
+    "nil per os"
+   ],
+   "abbr": "NPO",
+   "abbrAlts": [],
+   "ko": "금식",
+   "cat": "vital"
+  },
+  {
+   "id": "operation",
+   "term": "operation",
+   "termAlts": [],
+   "abbr": "OP",
+   "abbrAlts": [],
+   "ko": "수술",
+   "cat": "vital"
+  },
+  {
+   "id": "patient",
+   "term": "patient",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "환자",
+   "cat": "vital"
+  },
+  {
+   "id": "hemodialysis",
+   "term": "hemodialysis",
+   "termAlts": [],
+   "abbr": "HD",
+   "abbrAlts": [],
+   "ko": "혈액투석",
+   "cat": "vital"
+  },
+  {
+   "id": "peritoneal_dialysis",
+   "term": "peritoneal dialysis",
+   "termAlts": [],
+   "abbr": "PD",
+   "abbrAlts": [],
+   "ko": "복막투석",
+   "cat": "vital"
+  },
+  {
+   "id": "bed_rest",
+   "term": "bed rest",
+   "termAlts": [],
+   "abbr": "BR",
+   "abbrAlts": [],
+   "ko": "침상 안정",
+   "cat": "vital"
+  },
+  {
+   "id": "absolute_bed_rest",
+   "term": "absolute bed rest",
+   "termAlts": [],
+   "abbr": "ABR",
+   "abbrAlts": [],
+   "ko": "절대 안정",
+   "cat": "vital"
+  },
+  {
+   "id": "out_of_bed",
+   "term": "out of bed",
+   "termAlts": [],
+   "abbr": "OOB",
+   "abbrAlts": [],
+   "ko": "침상 밖 활동",
+   "cat": "vital"
+  },
+  {
+   "id": "wheelchair",
+   "term": "wheelchair",
+   "termAlts": [],
+   "abbr": "W/C",
+   "abbrAlts": [],
+   "ko": "휠체어",
+   "cat": "vital"
+  },
+  {
+   "id": "do_not_resuscitate",
+   "term": "do not resuscitate",
+   "termAlts": [],
+   "abbr": "DNR",
+   "abbrAlts": [],
+   "ko": "심폐소생술 거부",
+   "cat": "vital"
+  },
+  {
+   "id": "follow_up",
+   "term": "follow up",
+   "termAlts": [],
+   "abbr": "F/U",
+   "abbrAlts": [],
+   "ko": "추적 관찰",
+   "cat": "vital"
+  },
+  {
+   "id": "rule_out",
+   "term": "rule out",
+   "termAlts": [],
+   "abbr": "R/O",
+   "abbrAlts": [],
+   "ko": "의심, 배제 진단",
+   "cat": "vital"
+  },
+  {
+   "id": "status_post",
+   "term": "status post",
+   "termAlts": [],
+   "abbr": "s/p",
+   "abbrAlts": [],
+   "ko": "수술(처치) 후 상태",
+   "cat": "vital"
+  },
+  {
+   "id": "complain_of",
+   "term": "complain of",
+   "termAlts": [],
+   "abbr": "c/o",
+   "abbrAlts": [],
+   "ko": "호소하다",
+   "cat": "vital"
+  },
+  {
+   "id": "within_normal_limits",
+   "term": "within normal limits",
+   "termAlts": [],
+   "abbr": "WNL",
+   "abbrAlts": [],
+   "ko": "정상 범위 이내",
+   "cat": "vital"
+  },
+  {
+   "id": "no_abnormal_detected",
+   "term": "no abnormal detected",
+   "termAlts": [
+    "no acute distress"
+   ],
+   "abbr": "NAD",
+   "abbrAlts": [],
+   "ko": "특이 소견 없음",
+   "cat": "vital"
+  },
+  {
+   "id": "per_os",
+   "term": "per os",
+   "termAlts": [
+    "by mouth"
+   ],
+   "abbr": "PO",
+   "abbrAlts": [],
+   "ko": "경구 투여, 입으로",
+   "cat": "rx"
+  },
+  {
+   "id": "intravenous",
+   "term": "intravenous",
+   "termAlts": [],
+   "abbr": "IV",
+   "abbrAlts": [],
+   "ko": "정맥주사, 정맥 내",
+   "cat": "rx"
+  },
+  {
+   "id": "intramuscular",
+   "term": "intramuscular",
+   "termAlts": [],
+   "abbr": "IM",
+   "abbrAlts": [],
+   "ko": "근육주사, 근육 내",
+   "cat": "rx"
+  },
+  {
+   "id": "subcutaneous",
+   "term": "subcutaneous",
+   "termAlts": [],
+   "abbr": "SC",
+   "abbrAlts": [
+    "SQ"
+   ],
+   "ko": "피하주사, 피하",
+   "cat": "rx"
+  },
+  {
+   "id": "intradermal",
+   "term": "intradermal",
+   "termAlts": [],
+   "abbr": "ID",
+   "abbrAlts": [],
+   "ko": "피내주사, 피내",
+   "cat": "rx"
+  },
+  {
+   "id": "sublingual",
+   "term": "sublingual",
+   "termAlts": [],
+   "abbr": "SL",
+   "abbrAlts": [],
+   "ko": "설하 투여, 혀 밑",
+   "cat": "rx"
+  },
+  {
+   "id": "once_a_day",
+   "term": "once a day",
+   "termAlts": [
+    "quaque die"
+   ],
+   "abbr": "qd",
+   "abbrAlts": [],
+   "ko": "하루 한 번",
+   "cat": "rx"
+  },
+  {
+   "id": "twice_a_day",
+   "term": "twice a day",
+   "termAlts": [
+    "bis in die"
+   ],
+   "abbr": "bid",
+   "abbrAlts": [],
+   "ko": "하루 두 번",
+   "cat": "rx"
+  },
+  {
+   "id": "three_times_a_day",
+   "term": "three times a day",
+   "termAlts": [
+    "ter in die"
+   ],
+   "abbr": "tid",
+   "abbrAlts": [],
+   "ko": "하루 세 번",
+   "cat": "rx"
+  },
+  {
+   "id": "four_times_a_day",
+   "term": "four times a day",
+   "termAlts": [
+    "quater in die"
+   ],
+   "abbr": "qid",
+   "abbrAlts": [],
+   "ko": "하루 네 번",
+   "cat": "rx"
+  },
+  {
+   "id": "every_4_hours",
+   "term": "every 4 hours",
+   "termAlts": [
+    "every four hours"
+   ],
+   "abbr": "q4h",
+   "abbrAlts": [],
+   "ko": "4시간마다",
+   "cat": "rx"
+  },
+  {
+   "id": "every_6_hours",
+   "term": "every 6 hours",
+   "termAlts": [
+    "every six hours"
+   ],
+   "abbr": "q6h",
+   "abbrAlts": [],
+   "ko": "6시간마다",
+   "cat": "rx"
+  },
+  {
+   "id": "at_bedtime",
+   "term": "at bedtime",
+   "termAlts": [
+    "hora somni"
+   ],
+   "abbr": "hs",
+   "abbrAlts": [],
+   "ko": "취침 전",
+   "cat": "rx"
+  },
+  {
+   "id": "before_meals",
+   "term": "before meals",
+   "termAlts": [
+    "ante cibum"
+   ],
+   "abbr": "ac",
+   "abbrAlts": [],
+   "ko": "식전",
+   "cat": "rx"
+  },
+  {
+   "id": "after_meals",
+   "term": "after meals",
+   "termAlts": [
+    "post cibum"
+   ],
+   "abbr": "pc",
+   "abbrAlts": [],
+   "ko": "식후",
+   "cat": "rx"
+  },
+  {
+   "id": "as_needed",
+   "term": "as needed",
+   "termAlts": [
+    "pro re nata"
+   ],
+   "abbr": "prn",
+   "abbrAlts": [],
+   "ko": "필요시",
+   "cat": "rx"
+  },
+  {
+   "id": "immediately",
+   "term": "immediately",
+   "termAlts": [
+    "statim"
+   ],
+   "abbr": "stat",
+   "abbrAlts": [],
+   "ko": "즉시",
+   "cat": "rx"
+  },
+  {
+   "id": "normal_saline",
+   "term": "normal saline",
+   "termAlts": [],
+   "abbr": "NS",
+   "abbrAlts": [],
+   "ko": "생리식염수",
+   "cat": "rx"
+  },
+  {
+   "id": "5_dextrose_in_water",
+   "term": "5% dextrose in water",
+   "termAlts": [
+    "dextrose 5% in water"
+   ],
+   "abbr": "D5W",
+   "abbrAlts": [],
+   "ko": "5% 포도당 수액",
+   "cat": "rx"
+  },
+  {
+   "id": "intravenous_fluid",
+   "term": "intravenous fluid",
+   "termAlts": [],
+   "abbr": "IVF",
+   "abbrAlts": [],
+   "ko": "정맥 수액",
+   "cat": "rx"
+  },
+  {
+   "id": "keep_vein_open",
+   "term": "keep vein open",
+   "termAlts": [],
+   "abbr": "KVO",
+   "abbrAlts": [],
+   "ko": "정맥 유지, 최소 속도 주입",
+   "cat": "rx"
+  },
+  {
+   "id": "total_parenteral_nutrition",
+   "term": "total parenteral nutrition",
+   "termAlts": [],
+   "abbr": "TPN",
+   "abbrAlts": [],
+   "ko": "총 비경구 영양",
+   "cat": "rx"
+  },
+  {
+   "id": "drops",
+   "term": "drops",
+   "termAlts": [
+    "guttae"
+   ],
+   "abbr": "gtt",
+   "abbrAlts": [],
+   "ko": "방울",
+   "cat": "rx"
+  },
+  {
+   "id": "ampule",
+   "term": "ampule",
+   "termAlts": [
+    "ampoule"
+   ],
+   "abbr": "amp",
+   "abbrAlts": [],
+   "ko": "앰플",
+   "cat": "rx"
+  },
+  {
+   "id": "capsule",
+   "term": "capsule",
+   "termAlts": [],
+   "abbr": "cap",
+   "abbrAlts": [],
+   "ko": "캡슐",
+   "cat": "rx"
+  },
+  {
+   "id": "tablet",
+   "term": "tablet",
+   "termAlts": [],
+   "abbr": "tab",
+   "abbrAlts": [],
+   "ko": "정제, 알약",
+   "cat": "rx"
+  },
+  {
+   "id": "syrup",
+   "term": "syrup",
+   "termAlts": [],
+   "abbr": "syr",
+   "abbrAlts": [],
+   "ko": "시럽",
+   "cat": "rx"
+  },
+  {
+   "id": "injection",
+   "term": "injection",
+   "termAlts": [],
+   "abbr": "inj",
+   "abbrAlts": [],
+   "ko": "주사",
+   "cat": "rx"
+  },
+  {
+   "id": "prescription",
+   "term": "prescription",
+   "termAlts": [],
+   "abbr": "Rx",
+   "abbrAlts": [],
+   "ko": "처방",
+   "cat": "rx"
+  },
+  {
+   "id": "over_the_counter",
+   "term": "over the counter",
+   "termAlts": [],
+   "abbr": "OTC",
+   "abbrAlts": [],
+   "ko": "일반의약품, 처방 없이 사는 약",
+   "cat": "rx"
+  },
+  {
+   "id": "antibiotics",
+   "term": "antibiotics",
+   "termAlts": [],
+   "abbr": "Abx",
+   "abbrAlts": [],
+   "ko": "항생제",
+   "cat": "rx"
+  },
+  {
+   "id": "analgesic",
+   "term": "analgesic",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "진통제",
+   "cat": "rx"
+  },
+  {
+   "id": "antipyretic",
+   "term": "antipyretic",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "해열제",
+   "cat": "rx"
+  },
+  {
+   "id": "antiemetic",
+   "term": "antiemetic",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "항구토제, 진토제",
+   "cat": "rx"
+  },
+  {
+   "id": "anticoagulant",
+   "term": "anticoagulant",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "항응고제",
+   "cat": "rx"
+  },
+  {
+   "id": "diuretic",
+   "term": "diuretic",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "이뇨제",
+   "cat": "rx"
+  },
+  {
+   "id": "sedative",
+   "term": "sedative",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "진정제",
+   "cat": "rx"
+  },
+  {
+   "id": "hypnotic",
+   "term": "hypnotic",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "수면제",
+   "cat": "rx"
+  },
+  {
+   "id": "laxative",
+   "term": "laxative",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "완하제, 변비약",
+   "cat": "rx"
+  },
+  {
+   "id": "antihypertensive",
+   "term": "antihypertensive",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "항고혈압제, 혈압약",
+   "cat": "rx"
+  },
+  {
+   "id": "vasopressor",
+   "term": "vasopressor",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "승압제",
+   "cat": "rx"
+  },
+  {
+   "id": "bronchodilator",
+   "term": "bronchodilator",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "기관지 확장제",
+   "cat": "rx"
+  },
+  {
+   "id": "antihistamine",
+   "term": "antihistamine",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "항히스타민제",
+   "cat": "rx"
+  },
+  {
+   "id": "insulin",
+   "term": "insulin",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "인슐린",
+   "cat": "rx"
+  },
+  {
+   "id": "opioid",
+   "term": "opioid",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "마약성 진통제, 아편유사제",
+   "cat": "rx"
+  },
+  {
+   "id": "nonsteroidal_anti_inflammatory_drug",
+   "term": "nonsteroidal anti-inflammatory drug",
+   "termAlts": [],
+   "abbr": "NSAID",
+   "abbrAlts": [],
+   "ko": "비스테로이드성 소염진통제",
+   "cat": "rx"
+  },
+  {
+   "id": "patient_controlled_analgesia",
+   "term": "patient controlled analgesia",
+   "termAlts": [],
+   "abbr": "PCA",
+   "abbrAlts": [],
+   "ko": "자가조절 진통법",
+   "cat": "rx"
+  },
+  {
+   "id": "medication_administration_record",
+   "term": "medication administration record",
+   "termAlts": [],
+   "abbr": "MAR",
+   "abbrAlts": [],
+   "ko": "투약기록지",
+   "cat": "rx"
+  },
+  {
+   "id": "antibiotic_sensitivity_test",
+   "term": "antibiotic sensitivity test",
+   "termAlts": [
+    "antibiotic skin test"
+   ],
+   "abbr": "AST",
+   "abbrAlts": [],
+   "ko": "항생제 피부반응 검사",
+   "cat": "rx"
+  },
+  {
+   "id": "side_effect",
+   "term": "side effect",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "부작용",
+   "cat": "rx"
+  },
+  {
+   "id": "dose",
+   "term": "dose",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "용량, 1회 투여량",
+   "cat": "rx"
+  },
+  {
+   "id": "overdose",
+   "term": "overdose",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "과량 투여, 과다 복용",
+   "cat": "rx"
+  },
+  {
+   "id": "titration",
+   "term": "titration",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "용량 조절",
+   "cat": "rx"
+  },
+  {
+   "id": "infusion_pump",
+   "term": "infusion pump",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "주입 펌프",
+   "cat": "rx"
+  },
+  {
+   "id": "abdomen",
+   "term": "abdomen",
+   "termAlts": [],
+   "abbr": "Abd",
+   "abbrAlts": [],
+   "ko": "복부, 배",
+   "cat": "anatomy"
+  },
+  {
+   "id": "thorax",
+   "term": "thorax",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "흉곽, 가슴",
+   "cat": "anatomy"
+  },
+  {
+   "id": "cranium",
+   "term": "cranium",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "두개골",
+   "cat": "anatomy"
+  },
+  {
+   "id": "vertebra",
+   "term": "vertebra",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "척추뼈",
+   "cat": "anatomy"
+  },
+  {
+   "id": "femur",
+   "term": "femur",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "대퇴골, 넙다리뼈",
+   "cat": "anatomy"
+  },
+  {
+   "id": "tibia",
+   "term": "tibia",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "경골, 정강뼈",
+   "cat": "anatomy"
+  },
+  {
+   "id": "humerus",
+   "term": "humerus",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "상완골, 위팔뼈",
+   "cat": "anatomy"
+  },
+  {
+   "id": "clavicle",
+   "term": "clavicle",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "쇄골, 빗장뼈",
+   "cat": "anatomy"
+  },
+  {
+   "id": "scapula",
+   "term": "scapula",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "견갑골, 어깨뼈",
+   "cat": "anatomy"
+  },
+  {
+   "id": "sternum",
+   "term": "sternum",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "흉골, 복장뼈",
+   "cat": "anatomy"
+  },
+  {
+   "id": "rib",
+   "term": "rib",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "늑골, 갈비뼈",
+   "cat": "anatomy"
+  },
+  {
+   "id": "pelvis",
+   "term": "pelvis",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "골반",
+   "cat": "anatomy"
+  },
+  {
+   "id": "trachea",
+   "term": "trachea",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "기관, 숨통",
+   "cat": "anatomy"
+  },
+  {
+   "id": "bronchus",
+   "term": "bronchus",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "기관지",
+   "cat": "anatomy"
+  },
+  {
+   "id": "esophagus",
+   "term": "esophagus",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "식도",
+   "cat": "anatomy"
+  },
+  {
+   "id": "stomach",
+   "term": "stomach",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "위",
+   "cat": "anatomy"
+  },
+  {
+   "id": "duodenum",
+   "term": "duodenum",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "십이지장",
+   "cat": "anatomy"
+  },
+  {
+   "id": "liver",
+   "term": "liver",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "간",
+   "cat": "anatomy"
+  },
+  {
+   "id": "gallbladder",
+   "term": "gallbladder",
+   "termAlts": [],
+   "abbr": "GB",
+   "abbrAlts": [],
+   "ko": "담낭, 쓸개",
+   "cat": "anatomy"
+  },
+  {
+   "id": "pancreas",
+   "term": "pancreas",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "췌장, 이자",
+   "cat": "anatomy"
+  },
+  {
+   "id": "spleen",
+   "term": "spleen",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "비장, 지라",
+   "cat": "anatomy"
+  },
+  {
+   "id": "kidney",
+   "term": "kidney",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "신장, 콩팥",
+   "cat": "anatomy"
+  },
+  {
+   "id": "ureter",
+   "term": "ureter",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "요관",
+   "cat": "anatomy"
+  },
+  {
+   "id": "bladder",
+   "term": "bladder",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "방광",
+   "cat": "anatomy"
+  },
+  {
+   "id": "urethra",
+   "term": "urethra",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "요도",
+   "cat": "anatomy"
+  },
+  {
+   "id": "uterus",
+   "term": "uterus",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "자궁",
+   "cat": "anatomy"
+  },
+  {
+   "id": "ovary",
+   "term": "ovary",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "난소",
+   "cat": "anatomy"
+  },
+  {
+   "id": "prostate",
+   "term": "prostate",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "전립선",
+   "cat": "anatomy"
+  },
+  {
+   "id": "artery",
+   "term": "artery",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "동맥",
+   "cat": "anatomy"
+  },
+  {
+   "id": "vein",
+   "term": "vein",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "정맥",
+   "cat": "anatomy"
+  },
+  {
+   "id": "capillary",
+   "term": "capillary",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "모세혈관",
+   "cat": "anatomy"
+  },
+  {
+   "id": "aorta",
+   "term": "aorta",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "대동맥",
+   "cat": "anatomy"
+  },
+  {
+   "id": "atrium",
+   "term": "atrium",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "심방",
+   "cat": "anatomy"
+  },
+  {
+   "id": "ventricle",
+   "term": "ventricle",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "심실",
+   "cat": "anatomy"
+  },
+  {
+   "id": "alveolus",
+   "term": "alveolus",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "폐포, 허파꽈리",
+   "cat": "anatomy"
+  },
+  {
+   "id": "diaphragm",
+   "term": "diaphragm",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "횡격막, 가로막",
+   "cat": "anatomy"
+  },
+  {
+   "id": "larynx",
+   "term": "larynx",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "후두",
+   "cat": "anatomy"
+  },
+  {
+   "id": "pharynx",
+   "term": "pharynx",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "인두",
+   "cat": "anatomy"
+  },
+  {
+   "id": "tonsil",
+   "term": "tonsil",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "편도",
+   "cat": "anatomy"
+  },
+  {
+   "id": "thyroid",
+   "term": "thyroid",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "갑상선",
+   "cat": "anatomy"
+  },
+  {
+   "id": "adrenal_gland",
+   "term": "adrenal gland",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "부신",
+   "cat": "anatomy"
+  },
+  {
+   "id": "lymph_node",
+   "term": "lymph node",
+   "termAlts": [],
+   "abbr": "LN",
+   "abbrAlts": [],
+   "ko": "림프절",
+   "cat": "anatomy"
+  },
+  {
+   "id": "gastrointestinal",
+   "term": "gastrointestinal",
+   "termAlts": [],
+   "abbr": "GI",
+   "abbrAlts": [],
+   "ko": "위장관의, 소화기계",
+   "cat": "anatomy"
+  },
+  {
+   "id": "genitourinary",
+   "term": "genitourinary",
+   "termAlts": [],
+   "abbr": "GU",
+   "abbrAlts": [],
+   "ko": "비뇨생식기의",
+   "cat": "anatomy"
+  },
+  {
+   "id": "central_nervous_system",
+   "term": "central nervous system",
+   "termAlts": [],
+   "abbr": "CNS",
+   "abbrAlts": [],
+   "ko": "중추신경계",
+   "cat": "anatomy"
+  },
+  {
+   "id": "peripheral_nervous_system",
+   "term": "peripheral nervous system",
+   "termAlts": [],
+   "abbr": "PNS",
+   "abbrAlts": [],
+   "ko": "말초신경계",
+   "cat": "anatomy"
+  },
+  {
+   "id": "cardiovascular",
+   "term": "cardiovascular",
+   "termAlts": [],
+   "abbr": "CV",
+   "abbrAlts": [],
+   "ko": "심혈관의",
+   "cat": "anatomy"
+  },
+  {
+   "id": "musculoskeletal",
+   "term": "musculoskeletal",
+   "termAlts": [],
+   "abbr": "MS",
+   "abbrAlts": [],
+   "ko": "근골격계의",
+   "cat": "anatomy"
+  },
+  {
+   "id": "left",
+   "term": "left",
+   "termAlts": [],
+   "abbr": "Lt",
+   "abbrAlts": [],
+   "ko": "왼쪽",
+   "cat": "anatomy"
+  },
+  {
+   "id": "right",
+   "term": "right",
+   "termAlts": [],
+   "abbr": "Rt",
+   "abbrAlts": [],
+   "ko": "오른쪽",
+   "cat": "anatomy"
+  },
+  {
+   "id": "bilateral",
+   "term": "bilateral",
+   "termAlts": [],
+   "abbr": "Bil",
+   "abbrAlts": [],
+   "ko": "양측의, 양쪽",
+   "cat": "anatomy"
+  },
+  {
+   "id": "anterior",
+   "term": "anterior",
+   "termAlts": [],
+   "abbr": "ant",
+   "abbrAlts": [],
+   "ko": "앞쪽의, 전방",
+   "cat": "anatomy"
+  },
+  {
+   "id": "posterior",
+   "term": "posterior",
+   "termAlts": [],
+   "abbr": "post",
+   "abbrAlts": [],
+   "ko": "뒤쪽의, 후방",
+   "cat": "anatomy"
+  },
+  {
+   "id": "superior",
+   "term": "superior",
+   "termAlts": [],
+   "abbr": "sup",
+   "abbrAlts": [],
+   "ko": "위쪽의, 상부",
+   "cat": "anatomy"
+  },
+  {
+   "id": "inferior",
+   "term": "inferior",
+   "termAlts": [],
+   "abbr": "inf",
+   "abbrAlts": [],
+   "ko": "아래쪽의, 하부",
+   "cat": "anatomy"
+  },
+  {
+   "id": "lateral",
+   "term": "lateral",
+   "termAlts": [],
+   "abbr": "lat",
+   "abbrAlts": [],
+   "ko": "바깥쪽의, 외측",
+   "cat": "anatomy"
+  },
+  {
+   "id": "medial",
+   "term": "medial",
+   "termAlts": [],
+   "abbr": "med",
+   "abbrAlts": [],
+   "ko": "안쪽의, 내측",
+   "cat": "anatomy"
+  },
+  {
+   "id": "proximal",
+   "term": "proximal",
+   "termAlts": [],
+   "abbr": "prox",
+   "abbrAlts": [],
+   "ko": "몸쪽의, 근위",
+   "cat": "anatomy"
+  },
+  {
+   "id": "distal",
+   "term": "distal",
+   "termAlts": [],
+   "abbr": "dist",
+   "abbrAlts": [],
+   "ko": "먼쪽의, 원위",
+   "cat": "anatomy"
+  },
+  {
+   "id": "skull",
+   "term": "skull",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "두개골, 머리뼈",
+   "cat": "anatomy"
+  },
+  {
+   "id": "spine",
+   "term": "spine",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "척추",
+   "cat": "anatomy"
+  },
+  {
+   "id": "joint",
+   "term": "joint",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "관절",
+   "cat": "anatomy"
+  },
+  {
+   "id": "muscle",
+   "term": "muscle",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "근육",
+   "cat": "anatomy"
+  },
+  {
+   "id": "tendon",
+   "term": "tendon",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "힘줄, 건",
+   "cat": "anatomy"
+  },
+  {
+   "id": "ligament",
+   "term": "ligament",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "인대",
+   "cat": "anatomy"
+  },
+  {
+   "id": "cartilage",
+   "term": "cartilage",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "연골",
+   "cat": "anatomy"
+  },
+  {
+   "id": "skin",
+   "term": "skin",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "피부",
+   "cat": "anatomy"
+  },
+  {
+   "id": "nerve",
+   "term": "nerve",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "신경",
+   "cat": "anatomy"
+  },
+  {
+   "id": "fever",
+   "term": "fever",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "발열, 열",
+   "cat": "symptom"
+  },
+  {
+   "id": "chill",
+   "term": "chill",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "오한",
+   "cat": "symptom"
+  },
+  {
+   "id": "dyspnea",
+   "term": "dyspnea",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "호흡곤란",
+   "cat": "symptom"
+  },
+  {
+   "id": "shortness_of_breath",
+   "term": "shortness of breath",
+   "termAlts": [],
+   "abbr": "SOB",
+   "abbrAlts": [],
+   "ko": "숨가쁨, 호흡곤란",
+   "cat": "symptom"
+  },
+  {
+   "id": "tachypnea",
+   "term": "tachypnea",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "빈호흡, 빠른 호흡",
+   "cat": "symptom"
+  },
+  {
+   "id": "bradypnea",
+   "term": "bradypnea",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "서호흡, 느린 호흡",
+   "cat": "symptom"
+  },
+  {
+   "id": "apnea",
+   "term": "apnea",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "무호흡",
+   "cat": "symptom"
+  },
+  {
+   "id": "tachycardia",
+   "term": "tachycardia",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "빈맥, 빠른 맥박",
+   "cat": "symptom"
+  },
+  {
+   "id": "bradycardia",
+   "term": "bradycardia",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "서맥, 느린 맥박",
+   "cat": "symptom"
+  },
+  {
+   "id": "arrhythmia",
+   "term": "arrhythmia",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "부정맥",
+   "cat": "symptom"
+  },
+  {
+   "id": "hypertension",
+   "term": "hypertension",
+   "termAlts": [],
+   "abbr": "HTN",
+   "abbrAlts": [],
+   "ko": "고혈압",
+   "cat": "symptom"
+  },
+  {
+   "id": "hypotension",
+   "term": "hypotension",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "저혈압",
+   "cat": "symptom"
+  },
+  {
+   "id": "hypoxia",
+   "term": "hypoxia",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "저산소증",
+   "cat": "symptom"
+  },
+  {
+   "id": "cyanosis",
+   "term": "cyanosis",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "청색증",
+   "cat": "symptom"
+  },
+  {
+   "id": "pallor",
+   "term": "pallor",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "창백",
+   "cat": "symptom"
+  },
+  {
+   "id": "jaundice",
+   "term": "jaundice",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "황달",
+   "cat": "symptom"
+  },
+  {
+   "id": "edema",
+   "term": "edema",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "부종",
+   "cat": "symptom"
+  },
+  {
+   "id": "dehydration",
+   "term": "dehydration",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "탈수",
+   "cat": "symptom"
+  },
+  {
+   "id": "nausea",
+   "term": "nausea",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "오심, 메스꺼움",
+   "cat": "symptom"
+  },
+  {
+   "id": "vomiting",
+   "term": "vomiting",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "구토",
+   "cat": "symptom"
+  },
+  {
+   "id": "nausea_and_vomiting",
+   "term": "nausea and vomiting",
+   "termAlts": [],
+   "abbr": "N/V",
+   "abbrAlts": [],
+   "ko": "오심과 구토",
+   "cat": "symptom"
+  },
+  {
+   "id": "diarrhea",
+   "term": "diarrhea",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "설사",
+   "cat": "symptom"
+  },
+  {
+   "id": "constipation",
+   "term": "constipation",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "변비",
+   "cat": "symptom"
+  },
+  {
+   "id": "dysphagia",
+   "term": "dysphagia",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "연하곤란, 삼킴곤란",
+   "cat": "symptom"
+  },
+  {
+   "id": "dysuria",
+   "term": "dysuria",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "배뇨곤란, 배뇨통",
+   "cat": "symptom"
+  },
+  {
+   "id": "hematuria",
+   "term": "hematuria",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "혈뇨",
+   "cat": "symptom"
+  },
+  {
+   "id": "oliguria",
+   "term": "oliguria",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "핍뇨, 소변량 감소",
+   "cat": "symptom"
+  },
+  {
+   "id": "anuria",
+   "term": "anuria",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "무뇨",
+   "cat": "symptom"
+  },
+  {
+   "id": "polyuria",
+   "term": "polyuria",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "다뇨",
+   "cat": "symptom"
+  },
+  {
+   "id": "hemoptysis",
+   "term": "hemoptysis",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "객혈, 피 섞인 가래",
+   "cat": "symptom"
+  },
+  {
+   "id": "hematemesis",
+   "term": "hematemesis",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "토혈",
+   "cat": "symptom"
+  },
+  {
+   "id": "melena",
+   "term": "melena",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "흑색변",
+   "cat": "symptom"
+  },
+  {
+   "id": "epistaxis",
+   "term": "epistaxis",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "코피, 비출혈",
+   "cat": "symptom"
+  },
+  {
+   "id": "syncope",
+   "term": "syncope",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "실신",
+   "cat": "symptom"
+  },
+  {
+   "id": "vertigo",
+   "term": "vertigo",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "현훈, 어지럼",
+   "cat": "symptom"
+  },
+  {
+   "id": "headache",
+   "term": "headache",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "두통",
+   "cat": "symptom"
+  },
+  {
+   "id": "seizure",
+   "term": "seizure",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "발작",
+   "cat": "symptom"
+  },
+  {
+   "id": "convulsion",
+   "term": "convulsion",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "경련",
+   "cat": "symptom"
+  },
+  {
+   "id": "tremor",
+   "term": "tremor",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "떨림, 진전",
+   "cat": "symptom"
+  },
+  {
+   "id": "paralysis",
+   "term": "paralysis",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "마비",
+   "cat": "symptom"
+  },
+  {
+   "id": "hemiplegia",
+   "term": "hemiplegia",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "편마비",
+   "cat": "symptom"
+  },
+  {
+   "id": "paresthesia",
+   "term": "paresthesia",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "감각이상, 저림",
+   "cat": "symptom"
+  },
+  {
+   "id": "pruritus",
+   "term": "pruritus",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "소양증, 가려움",
+   "cat": "symptom"
+  },
+  {
+   "id": "rash",
+   "term": "rash",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "발진",
+   "cat": "symptom"
+  },
+  {
+   "id": "urticaria",
+   "term": "urticaria",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "두드러기",
+   "cat": "symptom"
+  },
+  {
+   "id": "abscess",
+   "term": "abscess",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "농양, 고름집",
+   "cat": "symptom"
+  },
+  {
+   "id": "hemorrhage",
+   "term": "hemorrhage",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "출혈",
+   "cat": "symptom"
+  },
+  {
+   "id": "anemia",
+   "term": "anemia",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "빈혈",
+   "cat": "symptom"
+  },
+  {
+   "id": "insomnia",
+   "term": "insomnia",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "불면증",
+   "cat": "symptom"
+  },
+  {
+   "id": "anorexia",
+   "term": "anorexia",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "식욕부진",
+   "cat": "symptom"
+  },
+  {
+   "id": "fatigue",
+   "term": "fatigue",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "피로",
+   "cat": "symptom"
+  },
+  {
+   "id": "malaise",
+   "term": "malaise",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "권태감, 전신 쇠약감",
+   "cat": "symptom"
+  },
+  {
+   "id": "cough",
+   "term": "cough",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "기침",
+   "cat": "symptom"
+  },
+  {
+   "id": "sputum",
+   "term": "sputum",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "객담, 가래",
+   "cat": "symptom"
+  },
+  {
+   "id": "wheezing",
+   "term": "wheezing",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "천명음, 쌕쌕거림",
+   "cat": "symptom"
+  },
+  {
+   "id": "crackles",
+   "term": "crackles",
+   "termAlts": [
+    "rales"
+   ],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "수포음",
+   "cat": "symptom"
+  },
+  {
+   "id": "diaphoresis",
+   "term": "diaphoresis",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "발한, 땀 흘림",
+   "cat": "symptom"
+  },
+  {
+   "id": "hyperglycemia",
+   "term": "hyperglycemia",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "고혈당",
+   "cat": "symptom"
+  },
+  {
+   "id": "hypoglycemia",
+   "term": "hypoglycemia",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "저혈당",
+   "cat": "symptom"
+  },
+  {
+   "id": "hypothermia",
+   "term": "hypothermia",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "저체온증",
+   "cat": "symptom"
+  },
+  {
+   "id": "hyperthermia",
+   "term": "hyperthermia",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "고체온증",
+   "cat": "symptom"
+  },
+  {
+   "id": "inflammation",
+   "term": "inflammation",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "염증",
+   "cat": "symptom"
+  },
+  {
+   "id": "infection",
+   "term": "infection",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "감염",
+   "cat": "symptom"
+  },
+  {
+   "id": "sepsis",
+   "term": "sepsis",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "패혈증",
+   "cat": "symptom"
+  },
+  {
+   "id": "shock",
+   "term": "shock",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "쇼크",
+   "cat": "symptom"
+  },
+  {
+   "id": "pain",
+   "term": "pain",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "통증",
+   "cat": "symptom"
+  },
+  {
+   "id": "tenderness",
+   "term": "tenderness",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "압통",
+   "cat": "symptom"
+  },
+  {
+   "id": "distension",
+   "term": "distension",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "팽만",
+   "cat": "symptom"
+  },
+  {
+   "id": "incontinence",
+   "term": "incontinence",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "실금",
+   "cat": "symptom"
+  },
+  {
+   "id": "urinary_retention",
+   "term": "urinary retention",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "요정체, 소변 저류",
+   "cat": "symptom"
+  },
+  {
+   "id": "chest_pain",
+   "term": "chest pain",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "흉통, 가슴 통증",
+   "cat": "symptom"
+  },
+  {
+   "id": "dyspepsia",
+   "term": "dyspepsia",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "소화불량",
+   "cat": "symptom"
+  },
+  {
+   "id": "lethargy",
+   "term": "lethargy",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "기면, 무기력",
+   "cat": "symptom"
+  },
+  {
+   "id": "confusion",
+   "term": "confusion",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "혼돈, 의식 혼란",
+   "cat": "symptom"
+  },
+  {
+   "id": "delirium",
+   "term": "delirium",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "섬망",
+   "cat": "symptom"
+  },
+  {
+   "id": "coma",
+   "term": "coma",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "혼수",
+   "cat": "symptom"
+  },
+  {
+   "id": "numbness",
+   "term": "numbness",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "무감각, 저림",
+   "cat": "symptom"
+  },
+  {
+   "id": "swelling",
+   "term": "swelling",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "부기, 종창",
+   "cat": "symptom"
+  },
+  {
+   "id": "bruise",
+   "term": "bruise",
+   "termAlts": [
+    "ecchymosis"
+   ],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "멍, 반상출혈",
+   "cat": "symptom"
+  },
+  {
+   "id": "flatulence",
+   "term": "flatulence",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "고창, 방귀 가스 참",
+   "cat": "symptom"
+  },
+  {
+   "id": "belching",
+   "term": "belching",
+   "termAlts": [
+    "eructation"
+   ],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "트림",
+   "cat": "symptom"
+  },
+  {
+   "id": "hiccup",
+   "term": "hiccup",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "딸꾹질",
+   "cat": "symptom"
+  },
+  {
+   "id": "hoarseness",
+   "term": "hoarseness",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "쉰 목소리",
+   "cat": "symptom"
+  },
+  {
+   "id": "tinnitus",
+   "term": "tinnitus",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "이명, 귀울림",
+   "cat": "symptom"
+  },
+  {
+   "id": "ascites",
+   "term": "ascites",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "복수",
+   "cat": "symptom"
+  },
+  {
+   "id": "diabetes_mellitus",
+   "term": "diabetes mellitus",
+   "termAlts": [],
+   "abbr": "DM",
+   "abbrAlts": [],
+   "ko": "당뇨병",
+   "cat": "disease"
+  },
+  {
+   "id": "myocardial_infarction",
+   "term": "myocardial infarction",
+   "termAlts": [],
+   "abbr": "MI",
+   "abbrAlts": [],
+   "ko": "심근경색",
+   "cat": "disease"
+  },
+  {
+   "id": "acute_myocardial_infarction",
+   "term": "acute myocardial infarction",
+   "termAlts": [],
+   "abbr": "AMI",
+   "abbrAlts": [],
+   "ko": "급성 심근경색",
+   "cat": "disease"
+  },
+  {
+   "id": "congestive_heart_failure",
+   "term": "congestive heart failure",
+   "termAlts": [],
+   "abbr": "CHF",
+   "abbrAlts": [],
+   "ko": "울혈성 심부전",
+   "cat": "disease"
+  },
+  {
+   "id": "heart_failure",
+   "term": "heart failure",
+   "termAlts": [],
+   "abbr": "HF",
+   "abbrAlts": [],
+   "ko": "심부전",
+   "cat": "disease"
+  },
+  {
+   "id": "atrial_fibrillation",
+   "term": "atrial fibrillation",
+   "termAlts": [],
+   "abbr": "AF",
+   "abbrAlts": [
+    "Afib"
+   ],
+   "ko": "심방세동",
+   "cat": "disease"
+  },
+  {
+   "id": "coronary_artery_disease",
+   "term": "coronary artery disease",
+   "termAlts": [],
+   "abbr": "CAD",
+   "abbrAlts": [],
+   "ko": "관상동맥질환",
+   "cat": "disease"
+  },
+  {
+   "id": "angina_pectoris",
+   "term": "angina pectoris",
+   "termAlts": [
+    "angina"
+   ],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "협심증",
+   "cat": "disease"
+  },
+  {
+   "id": "cerebrovascular_accident",
+   "term": "cerebrovascular accident",
+   "termAlts": [],
+   "abbr": "CVA",
+   "abbrAlts": [],
+   "ko": "뇌혈관 사고, 뇌졸중",
+   "cat": "disease"
+  },
+  {
+   "id": "stroke",
+   "term": "stroke",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "뇌졸중",
+   "cat": "disease"
+  },
+  {
+   "id": "transient_ischemic_attack",
+   "term": "transient ischemic attack",
+   "termAlts": [],
+   "abbr": "TIA",
+   "abbrAlts": [],
+   "ko": "일과성 허혈 발작",
+   "cat": "disease"
+  },
+  {
+   "id": "intracranial_hemorrhage",
+   "term": "intracranial hemorrhage",
+   "termAlts": [
+    "intracerebral hemorrhage"
+   ],
+   "abbr": "ICH",
+   "abbrAlts": [],
+   "ko": "두개내 출혈, 뇌내 출혈",
+   "cat": "disease"
+  },
+  {
+   "id": "subarachnoid_hemorrhage",
+   "term": "subarachnoid hemorrhage",
+   "termAlts": [],
+   "abbr": "SAH",
+   "abbrAlts": [],
+   "ko": "지주막하 출혈",
+   "cat": "disease"
+  },
+  {
+   "id": "chronic_obstructive_pulmonary_disease",
+   "term": "chronic obstructive pulmonary disease",
+   "termAlts": [],
+   "abbr": "COPD",
+   "abbrAlts": [],
+   "ko": "만성 폐쇄성 폐질환",
+   "cat": "disease"
+  },
+  {
+   "id": "upper_respiratory_infection",
+   "term": "upper respiratory infection",
+   "termAlts": [],
+   "abbr": "URI",
+   "abbrAlts": [],
+   "ko": "상기도 감염",
+   "cat": "disease"
+  },
+  {
+   "id": "tuberculosis",
+   "term": "tuberculosis",
+   "termAlts": [],
+   "abbr": "TB",
+   "abbrAlts": [],
+   "ko": "결핵",
+   "cat": "disease"
+  },
+  {
+   "id": "pneumonia",
+   "term": "pneumonia",
+   "termAlts": [],
+   "abbr": "Pn",
+   "abbrAlts": [],
+   "ko": "폐렴",
+   "cat": "disease"
+  },
+  {
+   "id": "asthma",
+   "term": "asthma",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "천식",
+   "cat": "disease"
+  },
+  {
+   "id": "pleural_effusion",
+   "term": "pleural effusion",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "흉수",
+   "cat": "disease"
+  },
+  {
+   "id": "pneumothorax",
+   "term": "pneumothorax",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "기흉",
+   "cat": "disease"
+  },
+  {
+   "id": "acute_respiratory_distress_syndrome",
+   "term": "acute respiratory distress syndrome",
+   "termAlts": [],
+   "abbr": "ARDS",
+   "abbrAlts": [],
+   "ko": "급성 호흡곤란 증후군",
+   "cat": "disease"
+  },
+  {
+   "id": "pulmonary_embolism",
+   "term": "pulmonary embolism",
+   "termAlts": [],
+   "abbr": "PE",
+   "abbrAlts": [],
+   "ko": "폐색전증",
+   "cat": "disease"
+  },
+  {
+   "id": "deep_vein_thrombosis",
+   "term": "deep vein thrombosis",
+   "termAlts": [],
+   "abbr": "DVT",
+   "abbrAlts": [],
+   "ko": "심부정맥 혈전증",
+   "cat": "disease"
+  },
+  {
+   "id": "chronic_kidney_disease",
+   "term": "chronic kidney disease",
+   "termAlts": [],
+   "abbr": "CKD",
+   "abbrAlts": [],
+   "ko": "만성 신장질환",
+   "cat": "disease"
+  },
+  {
+   "id": "acute_kidney_injury",
+   "term": "acute kidney injury",
+   "termAlts": [],
+   "abbr": "AKI",
+   "abbrAlts": [],
+   "ko": "급성 신손상",
+   "cat": "disease"
+  },
+  {
+   "id": "urinary_tract_infection",
+   "term": "urinary tract infection",
+   "termAlts": [],
+   "abbr": "UTI",
+   "abbrAlts": [],
+   "ko": "요로감염",
+   "cat": "disease"
+  },
+  {
+   "id": "gastroesophageal_reflux_disease",
+   "term": "gastroesophageal reflux disease",
+   "termAlts": [],
+   "abbr": "GERD",
+   "abbrAlts": [],
+   "ko": "위식도 역류질환",
+   "cat": "disease"
+  },
+  {
+   "id": "peptic_ulcer_disease",
+   "term": "peptic ulcer disease",
+   "termAlts": [],
+   "abbr": "PUD",
+   "abbrAlts": [],
+   "ko": "소화성 궤양",
+   "cat": "disease"
+  },
+  {
+   "id": "liver_cirrhosis",
+   "term": "liver cirrhosis",
+   "termAlts": [],
+   "abbr": "LC",
+   "abbrAlts": [],
+   "ko": "간경변",
+   "cat": "disease"
+  },
+  {
+   "id": "hepatitis",
+   "term": "hepatitis",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "간염",
+   "cat": "disease"
+  },
+  {
+   "id": "appendicitis",
+   "term": "appendicitis",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "충수염, 맹장염",
+   "cat": "disease"
+  },
+  {
+   "id": "cholecystitis",
+   "term": "cholecystitis",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "담낭염",
+   "cat": "disease"
+  },
+  {
+   "id": "pancreatitis",
+   "term": "pancreatitis",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "췌장염",
+   "cat": "disease"
+  },
+  {
+   "id": "peritonitis",
+   "term": "peritonitis",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "복막염",
+   "cat": "disease"
+  },
+  {
+   "id": "ileus",
+   "term": "ileus",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "장폐색, 마비성 장폐색",
+   "cat": "disease"
+  },
+  {
+   "id": "cancer",
+   "term": "cancer",
+   "termAlts": [
+    "carcinoma"
+   ],
+   "abbr": "Ca",
+   "abbrAlts": [],
+   "ko": "암",
+   "cat": "disease"
+  },
+  {
+   "id": "tumor",
+   "term": "tumor",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "종양",
+   "cat": "disease"
+  },
+  {
+   "id": "benign",
+   "term": "benign",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "양성의",
+   "cat": "disease"
+  },
+  {
+   "id": "malignant",
+   "term": "malignant",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "악성의",
+   "cat": "disease"
+  },
+  {
+   "id": "metastasis",
+   "term": "metastasis",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "전이",
+   "cat": "disease"
+  },
+  {
+   "id": "benign_prostatic_hyperplasia",
+   "term": "benign prostatic hyperplasia",
+   "termAlts": [],
+   "abbr": "BPH",
+   "abbrAlts": [],
+   "ko": "양성 전립선 비대증",
+   "cat": "disease"
+  },
+  {
+   "id": "osteoarthritis",
+   "term": "osteoarthritis",
+   "termAlts": [],
+   "abbr": "OA",
+   "abbrAlts": [],
+   "ko": "골관절염, 퇴행성 관절염",
+   "cat": "disease"
+  },
+  {
+   "id": "rheumatoid_arthritis",
+   "term": "rheumatoid arthritis",
+   "termAlts": [],
+   "abbr": "RA",
+   "abbrAlts": [],
+   "ko": "류마티스 관절염",
+   "cat": "disease"
+  },
+  {
+   "id": "fracture",
+   "term": "fracture",
+   "termAlts": [],
+   "abbr": "Fx",
+   "abbrAlts": [],
+   "ko": "골절",
+   "cat": "disease"
+  },
+  {
+   "id": "osteoporosis",
+   "term": "osteoporosis",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "골다공증",
+   "cat": "disease"
+  },
+  {
+   "id": "dementia",
+   "term": "dementia",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "치매",
+   "cat": "disease"
+  },
+  {
+   "id": "alzheimer_disease",
+   "term": "Alzheimer disease",
+   "termAlts": [
+    "Alzheimer's disease"
+   ],
+   "abbr": "AD",
+   "abbrAlts": [],
+   "ko": "알츠하이머병",
+   "cat": "disease"
+  },
+  {
+   "id": "parkinson_disease",
+   "term": "Parkinson disease",
+   "termAlts": [
+    "Parkinson's disease"
+   ],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "파킨슨병",
+   "cat": "disease"
+  },
+  {
+   "id": "epilepsy",
+   "term": "epilepsy",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "뇌전증, 간질",
+   "cat": "disease"
+  },
+  {
+   "id": "meningitis",
+   "term": "meningitis",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "수막염, 뇌수막염",
+   "cat": "disease"
+  },
+  {
+   "id": "depression",
+   "term": "depression",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "우울증",
+   "cat": "disease"
+  },
+  {
+   "id": "anxiety",
+   "term": "anxiety",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "불안",
+   "cat": "disease"
+  },
+  {
+   "id": "schizophrenia",
+   "term": "schizophrenia",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "조현병",
+   "cat": "disease"
+  },
+  {
+   "id": "allergy",
+   "term": "allergy",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "알레르기",
+   "cat": "disease"
+  },
+  {
+   "id": "anaphylaxis",
+   "term": "anaphylaxis",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "아나필락시스, 과민성 쇼크",
+   "cat": "disease"
+  },
+  {
+   "id": "methicillin_resistant_staphylococcus_aureus",
+   "term": "methicillin-resistant Staphylococcus aureus",
+   "termAlts": [],
+   "abbr": "MRSA",
+   "abbrAlts": [],
+   "ko": "메티실린 내성 황색포도알균",
+   "cat": "disease"
+  },
+  {
+   "id": "human_immunodeficiency_virus",
+   "term": "human immunodeficiency virus",
+   "termAlts": [],
+   "abbr": "HIV",
+   "abbrAlts": [],
+   "ko": "인간 면역결핍 바이러스",
+   "cat": "disease"
+  },
+  {
+   "id": "acquired_immunodeficiency_syndrome",
+   "term": "acquired immunodeficiency syndrome",
+   "termAlts": [],
+   "abbr": "AIDS",
+   "abbrAlts": [],
+   "ko": "후천성 면역결핍 증후군",
+   "cat": "disease"
+  },
+  {
+   "id": "diabetic_ketoacidosis",
+   "term": "diabetic ketoacidosis",
+   "termAlts": [],
+   "abbr": "DKA",
+   "abbrAlts": [],
+   "ko": "당뇨병성 케톤산증",
+   "cat": "disease"
+  },
+  {
+   "id": "pressure_ulcer",
+   "term": "pressure ulcer",
+   "termAlts": [
+    "pressure injury",
+    "pressure sore"
+   ],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "욕창",
+   "cat": "disease"
+  },
+  {
+   "id": "hernia",
+   "term": "hernia",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "탈장",
+   "cat": "disease"
+  },
+  {
+   "id": "hemorrhoid",
+   "term": "hemorrhoid",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "치질, 치핵",
+   "cat": "disease"
+  },
+  {
+   "id": "obesity",
+   "term": "obesity",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "비만",
+   "cat": "disease"
+  },
+  {
+   "id": "malnutrition",
+   "term": "malnutrition",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "영양실조",
+   "cat": "disease"
+  },
+  {
+   "id": "gastritis",
+   "term": "gastritis",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "위염",
+   "cat": "disease"
+  },
+  {
+   "id": "enteritis",
+   "term": "enteritis",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "장염",
+   "cat": "disease"
+  },
+  {
+   "id": "colitis",
+   "term": "colitis",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "대장염",
+   "cat": "disease"
+  },
+  {
+   "id": "nephritis",
+   "term": "nephritis",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "신장염",
+   "cat": "disease"
+  },
+  {
+   "id": "cystitis",
+   "term": "cystitis",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "방광염",
+   "cat": "disease"
+  },
+  {
+   "id": "bronchitis",
+   "term": "bronchitis",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "기관지염",
+   "cat": "disease"
+  },
+  {
+   "id": "sinusitis",
+   "term": "sinusitis",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "부비동염, 축농증",
+   "cat": "disease"
+  },
+  {
+   "id": "otitis_media",
+   "term": "otitis media",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "중이염",
+   "cat": "disease"
+  },
+  {
+   "id": "conjunctivitis",
+   "term": "conjunctivitis",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "결막염",
+   "cat": "disease"
+  },
+  {
+   "id": "dermatitis",
+   "term": "dermatitis",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "피부염",
+   "cat": "disease"
+  },
+  {
+   "id": "cellulitis",
+   "term": "cellulitis",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "봉와직염, 연조직염",
+   "cat": "disease"
+  },
+  {
+   "id": "thrombosis",
+   "term": "thrombosis",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "혈전증",
+   "cat": "disease"
+  },
+  {
+   "id": "embolism",
+   "term": "embolism",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "색전증",
+   "cat": "disease"
+  },
+  {
+   "id": "aneurysm",
+   "term": "aneurysm",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "동맥류",
+   "cat": "disease"
+  },
+  {
+   "id": "cataract",
+   "term": "cataract",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "백내장",
+   "cat": "disease"
+  },
+  {
+   "id": "glaucoma",
+   "term": "glaucoma",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "녹내장",
+   "cat": "disease"
+  },
+  {
+   "id": "gout",
+   "term": "gout",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "통풍",
+   "cat": "disease"
+  },
+  {
+   "id": "hyperthyroidism",
+   "term": "hyperthyroidism",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "갑상선 기능 항진증",
+   "cat": "disease"
+  },
+  {
+   "id": "hypothyroidism",
+   "term": "hypothyroidism",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "갑상선 기능 저하증",
+   "cat": "disease"
+  },
+  {
+   "id": "leukemia",
+   "term": "leukemia",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "백혈병",
+   "cat": "disease"
+  },
+  {
+   "id": "lymphoma",
+   "term": "lymphoma",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "림프종",
+   "cat": "disease"
+  },
+  {
+   "id": "nephrotic_syndrome",
+   "term": "nephrotic syndrome",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "신증후군",
+   "cat": "disease"
+  },
+  {
+   "id": "renal_failure",
+   "term": "renal failure",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "신부전",
+   "cat": "disease"
+  },
+  {
+   "id": "respiratory_failure",
+   "term": "respiratory failure",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "호흡부전",
+   "cat": "disease"
+  },
+  {
+   "id": "cardiac_arrest",
+   "term": "cardiac arrest",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "심정지",
+   "cat": "disease"
+  },
+  {
+   "id": "complete_blood_count",
+   "term": "complete blood count",
+   "termAlts": [],
+   "abbr": "CBC",
+   "abbrAlts": [],
+   "ko": "전혈구 검사",
+   "cat": "test"
+  },
+  {
+   "id": "hemoglobin",
+   "term": "hemoglobin",
+   "termAlts": [],
+   "abbr": "Hb",
+   "abbrAlts": [
+    "Hgb"
+   ],
+   "ko": "혈색소, 헤모글로빈",
+   "cat": "test"
+  },
+  {
+   "id": "hematocrit",
+   "term": "hematocrit",
+   "termAlts": [],
+   "abbr": "Hct",
+   "abbrAlts": [],
+   "ko": "적혈구 용적률, 헤마토크릿",
+   "cat": "test"
+  },
+  {
+   "id": "white_blood_cell",
+   "term": "white blood cell",
+   "termAlts": [],
+   "abbr": "WBC",
+   "abbrAlts": [],
+   "ko": "백혈구",
+   "cat": "test"
+  },
+  {
+   "id": "red_blood_cell",
+   "term": "red blood cell",
+   "termAlts": [],
+   "abbr": "RBC",
+   "abbrAlts": [],
+   "ko": "적혈구",
+   "cat": "test"
+  },
+  {
+   "id": "platelet",
+   "term": "platelet",
+   "termAlts": [],
+   "abbr": "PLT",
+   "abbrAlts": [],
+   "ko": "혈소판",
+   "cat": "test"
+  },
+  {
+   "id": "prothrombin_time",
+   "term": "prothrombin time",
+   "termAlts": [],
+   "abbr": "PT",
+   "abbrAlts": [],
+   "ko": "프로트롬빈 시간",
+   "cat": "test"
+  },
+  {
+   "id": "activated_partial_thromboplastin_time",
+   "term": "activated partial thromboplastin time",
+   "termAlts": [],
+   "abbr": "aPTT",
+   "abbrAlts": [],
+   "ko": "활성화 부분 트롬보플라스틴 시간",
+   "cat": "test"
+  },
+  {
+   "id": "international_normalized_ratio",
+   "term": "international normalized ratio",
+   "termAlts": [],
+   "abbr": "INR",
+   "abbrAlts": [],
+   "ko": "국제 표준화 비율",
+   "cat": "test"
+  },
+  {
+   "id": "blood_urea_nitrogen",
+   "term": "blood urea nitrogen",
+   "termAlts": [],
+   "abbr": "BUN",
+   "abbrAlts": [],
+   "ko": "혈중 요소질소",
+   "cat": "test"
+  },
+  {
+   "id": "creatinine",
+   "term": "creatinine",
+   "termAlts": [],
+   "abbr": "Cr",
+   "abbrAlts": [],
+   "ko": "크레아티닌",
+   "cat": "test"
+  },
+  {
+   "id": "glomerular_filtration_rate",
+   "term": "glomerular filtration rate",
+   "termAlts": [],
+   "abbr": "GFR",
+   "abbrAlts": [],
+   "ko": "사구체 여과율",
+   "cat": "test"
+  },
+  {
+   "id": "liver_function_test",
+   "term": "liver function test",
+   "termAlts": [],
+   "abbr": "LFT",
+   "abbrAlts": [],
+   "ko": "간기능 검사",
+   "cat": "test"
+  },
+  {
+   "id": "renal_function_test",
+   "term": "renal function test",
+   "termAlts": [],
+   "abbr": "RFT",
+   "abbrAlts": [],
+   "ko": "신장기능 검사",
+   "cat": "test"
+  },
+  {
+   "id": "sodium",
+   "term": "sodium",
+   "termAlts": [],
+   "abbr": "Na",
+   "abbrAlts": [],
+   "ko": "나트륨",
+   "cat": "test"
+  },
+  {
+   "id": "potassium",
+   "term": "potassium",
+   "termAlts": [],
+   "abbr": "K",
+   "abbrAlts": [],
+   "ko": "칼륨",
+   "cat": "test"
+  },
+  {
+   "id": "calcium",
+   "term": "calcium",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "칼슘",
+   "cat": "test"
+  },
+  {
+   "id": "albumin",
+   "term": "albumin",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "알부민",
+   "cat": "test"
+  },
+  {
+   "id": "c_reactive_protein",
+   "term": "C-reactive protein",
+   "termAlts": [],
+   "abbr": "CRP",
+   "abbrAlts": [],
+   "ko": "C-반응 단백",
+   "cat": "test"
+  },
+  {
+   "id": "erythrocyte_sedimentation_rate",
+   "term": "erythrocyte sedimentation rate",
+   "termAlts": [],
+   "abbr": "ESR",
+   "abbrAlts": [],
+   "ko": "적혈구 침강 속도",
+   "cat": "test"
+  },
+  {
+   "id": "arterial_blood_gas_analysis",
+   "term": "arterial blood gas analysis",
+   "termAlts": [],
+   "abbr": "ABGA",
+   "abbrAlts": [
+    "ABG"
+   ],
+   "ko": "동맥혈 가스 분석",
+   "cat": "test"
+  },
+  {
+   "id": "glycated_hemoglobin",
+   "term": "glycated hemoglobin",
+   "termAlts": [
+    "glycosylated hemoglobin"
+   ],
+   "abbr": "HbA1c",
+   "abbrAlts": [],
+   "ko": "당화혈색소",
+   "cat": "test"
+  },
+  {
+   "id": "fasting_blood_sugar",
+   "term": "fasting blood sugar",
+   "termAlts": [],
+   "abbr": "FBS",
+   "abbrAlts": [],
+   "ko": "공복 혈당",
+   "cat": "test"
+  },
+  {
+   "id": "postprandial_2_hours",
+   "term": "postprandial 2 hours",
+   "termAlts": [],
+   "abbr": "PP2",
+   "abbrAlts": [],
+   "ko": "식후 2시간 혈당",
+   "cat": "test"
+  },
+  {
+   "id": "urinalysis",
+   "term": "urinalysis",
+   "termAlts": [],
+   "abbr": "U/A",
+   "abbrAlts": [],
+   "ko": "소변검사",
+   "cat": "test"
+  },
+  {
+   "id": "electrocardiogram",
+   "term": "electrocardiogram",
+   "termAlts": [],
+   "abbr": "ECG",
+   "abbrAlts": [
+    "EKG"
+   ],
+   "ko": "심전도",
+   "cat": "test"
+  },
+  {
+   "id": "echocardiography",
+   "term": "echocardiography",
+   "termAlts": [],
+   "abbr": "Echo",
+   "abbrAlts": [],
+   "ko": "심장초음파",
+   "cat": "test"
+  },
+  {
+   "id": "chest_x_ray",
+   "term": "chest X-ray",
+   "termAlts": [],
+   "abbr": "CXR",
+   "abbrAlts": [],
+   "ko": "흉부 엑스선",
+   "cat": "test"
+  },
+  {
+   "id": "computed_tomography",
+   "term": "computed tomography",
+   "termAlts": [],
+   "abbr": "CT",
+   "abbrAlts": [],
+   "ko": "전산화 단층촬영",
+   "cat": "test"
+  },
+  {
+   "id": "magnetic_resonance_imaging",
+   "term": "magnetic resonance imaging",
+   "termAlts": [],
+   "abbr": "MRI",
+   "abbrAlts": [],
+   "ko": "자기공명영상",
+   "cat": "test"
+  },
+  {
+   "id": "ultrasound",
+   "term": "ultrasound",
+   "termAlts": [
+    "ultrasonography"
+   ],
+   "abbr": "US",
+   "abbrAlts": [
+    "USG"
+   ],
+   "ko": "초음파",
+   "cat": "test"
+  },
+  {
+   "id": "positron_emission_tomography",
+   "term": "positron emission tomography",
+   "termAlts": [],
+   "abbr": "PET",
+   "abbrAlts": [],
+   "ko": "양전자 방출 단층촬영",
+   "cat": "test"
+  },
+  {
+   "id": "electroencephalogram",
+   "term": "electroencephalogram",
+   "termAlts": [],
+   "abbr": "EEG",
+   "abbrAlts": [],
+   "ko": "뇌파검사",
+   "cat": "test"
+  },
+  {
+   "id": "esophagogastroduodenoscopy",
+   "term": "esophagogastroduodenoscopy",
+   "termAlts": [],
+   "abbr": "EGD",
+   "abbrAlts": [],
+   "ko": "위내시경, 식도위십이지장 내시경",
+   "cat": "test"
+  },
+  {
+   "id": "colonoscopy",
+   "term": "colonoscopy",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "대장내시경",
+   "cat": "test"
+  },
+  {
+   "id": "bronchoscopy",
+   "term": "bronchoscopy",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "기관지내시경",
+   "cat": "test"
+  },
+  {
+   "id": "biopsy",
+   "term": "biopsy",
+   "termAlts": [],
+   "abbr": "Bx",
+   "abbrAlts": [],
+   "ko": "생검, 조직검사",
+   "cat": "test"
+  },
+  {
+   "id": "culture",
+   "term": "culture",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "배양검사",
+   "cat": "test"
+  },
+  {
+   "id": "culture_and_sensitivity",
+   "term": "culture and sensitivity",
+   "termAlts": [],
+   "abbr": "C&S",
+   "abbrAlts": [],
+   "ko": "배양 및 감수성 검사",
+   "cat": "test"
+  },
+  {
+   "id": "lumbar_puncture",
+   "term": "lumbar puncture",
+   "termAlts": [],
+   "abbr": "LP",
+   "abbrAlts": [],
+   "ko": "요추천자",
+   "cat": "test"
+  },
+  {
+   "id": "bone_mineral_density",
+   "term": "bone mineral density",
+   "termAlts": [],
+   "abbr": "BMD",
+   "abbrAlts": [],
+   "ko": "골밀도 검사",
+   "cat": "test"
+  },
+  {
+   "id": "thyroid_function_test",
+   "term": "thyroid function test",
+   "termAlts": [],
+   "abbr": "TFT",
+   "abbrAlts": [],
+   "ko": "갑상선 기능검사",
+   "cat": "test"
+  },
+  {
+   "id": "troponin",
+   "term": "troponin",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "트로포닌, 심근 손상 표지자",
+   "cat": "test"
+  },
+  {
+   "id": "lipid_profile",
+   "term": "lipid profile",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "지질 검사",
+   "cat": "test"
+  },
+  {
+   "id": "oral_glucose_tolerance_test",
+   "term": "oral glucose tolerance test",
+   "termAlts": [],
+   "abbr": "OGTT",
+   "abbrAlts": [],
+   "ko": "경구 당부하 검사",
+   "cat": "test"
+  },
+  {
+   "id": "mammography",
+   "term": "mammography",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "유방촬영술",
+   "cat": "test"
+  },
+  {
+   "id": "specimen",
+   "term": "specimen",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "검체",
+   "cat": "test"
+  },
+  {
+   "id": "stool",
+   "term": "stool",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "대변",
+   "cat": "test"
+  },
+  {
+   "id": "urine",
+   "term": "urine",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "소변",
+   "cat": "test"
+  },
+  {
+   "id": "serum",
+   "term": "serum",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "혈청",
+   "cat": "test"
+  },
+  {
+   "id": "plasma",
+   "term": "plasma",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "혈장",
+   "cat": "test"
+  },
+  {
+   "id": "electrolyte",
+   "term": "electrolyte",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "전해질",
+   "cat": "test"
+  },
+  {
+   "id": "glucose",
+   "term": "glucose",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "포도당, 혈당",
+   "cat": "test"
+  },
+  {
+   "id": "bilirubin",
+   "term": "bilirubin",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "빌리루빈",
+   "cat": "test"
+  },
+  {
+   "id": "lactate",
+   "term": "lactate",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "젖산",
+   "cat": "test"
+  },
+  {
+   "id": "blood_type",
+   "term": "blood type",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "혈액형",
+   "cat": "test"
+  },
+  {
+   "id": "cross_matching",
+   "term": "cross matching",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "교차시험",
+   "cat": "test"
+  },
+  {
+   "id": "pulmonary_function_test",
+   "term": "pulmonary function test",
+   "termAlts": [],
+   "abbr": "PFT",
+   "abbrAlts": [],
+   "ko": "폐기능 검사",
+   "cat": "test"
+  },
+  {
+   "id": "barium_enema",
+   "term": "barium enema",
+   "termAlts": [],
+   "abbr": "BE",
+   "abbrAlts": [],
+   "ko": "바륨 관장 조영술",
+   "cat": "test"
+  },
+  {
+   "id": "kidney_ureter_bladder",
+   "term": "kidney ureter bladder",
+   "termAlts": [],
+   "abbr": "KUB",
+   "abbrAlts": [],
+   "ko": "복부 단순 촬영",
+   "cat": "test"
+  },
+  {
+   "id": "intravenous_pyelography",
+   "term": "intravenous pyelography",
+   "termAlts": [],
+   "abbr": "IVP",
+   "abbrAlts": [],
+   "ko": "경정맥 신우조영술",
+   "cat": "test"
+  },
+  {
+   "id": "angiography",
+   "term": "angiography",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "혈관조영술",
+   "cat": "test"
+  },
+  {
+   "id": "endoscopy",
+   "term": "endoscopy",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "내시경 검사",
+   "cat": "test"
+  },
+  {
+   "id": "foley_catheter",
+   "term": "Foley catheter",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "유치 도뇨관, 폴리 카테터",
+   "cat": "care"
+  },
+  {
+   "id": "nelaton_catheter",
+   "term": "Nelaton catheter",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "단순 도뇨관, 넬라톤",
+   "cat": "care"
+  },
+  {
+   "id": "levin_tube",
+   "term": "Levin tube",
+   "termAlts": [],
+   "abbr": "L-tube",
+   "abbrAlts": [],
+   "ko": "비위관, 레빈 튜브",
+   "cat": "care"
+  },
+  {
+   "id": "nasogastric_tube",
+   "term": "nasogastric tube",
+   "termAlts": [],
+   "abbr": "NG tube",
+   "abbrAlts": [],
+   "ko": "비위관",
+   "cat": "care"
+  },
+  {
+   "id": "endotracheal_tube",
+   "term": "endotracheal tube",
+   "termAlts": [],
+   "abbr": "E-tube",
+   "abbrAlts": [
+    "ETT"
+   ],
+   "ko": "기관내관",
+   "cat": "care"
+  },
+  {
+   "id": "tracheostomy_tube",
+   "term": "tracheostomy tube",
+   "termAlts": [],
+   "abbr": "T-tube",
+   "abbrAlts": [],
+   "ko": "기관절개관",
+   "cat": "care"
+  },
+  {
+   "id": "tracheostomy",
+   "term": "tracheostomy",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "기관절개술",
+   "cat": "care"
+  },
+  {
+   "id": "suction",
+   "term": "suction",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "흡인",
+   "cat": "care"
+  },
+  {
+   "id": "ventilator",
+   "term": "ventilator",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "인공호흡기",
+   "cat": "care"
+  },
+  {
+   "id": "nebulizer",
+   "term": "nebulizer",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "분무기, 네뷸라이저",
+   "cat": "care"
+  },
+  {
+   "id": "oxygen_inhalation",
+   "term": "oxygen inhalation",
+   "termAlts": [
+    "oxygen therapy"
+   ],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "산소 흡입, 산소 요법",
+   "cat": "care"
+  },
+  {
+   "id": "nasal_cannula",
+   "term": "nasal cannula",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "비강 캐뉼라",
+   "cat": "care"
+  },
+  {
+   "id": "enema",
+   "term": "enema",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "관장",
+   "cat": "care"
+  },
+  {
+   "id": "dressing",
+   "term": "dressing",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "드레싱, 상처 소독",
+   "cat": "care"
+  },
+  {
+   "id": "irrigation",
+   "term": "irrigation",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "세척",
+   "cat": "care"
+  },
+  {
+   "id": "position_change",
+   "term": "position change",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "체위변경",
+   "cat": "care"
+  },
+  {
+   "id": "semi_fowler_position",
+   "term": "semi-Fowler position",
+   "termAlts": [
+    "semi-Fowler's position"
+   ],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "반좌위",
+   "cat": "care"
+  },
+  {
+   "id": "fowler_position",
+   "term": "Fowler position",
+   "termAlts": [
+    "Fowler's position"
+   ],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "좌위, 파울러 자세",
+   "cat": "care"
+  },
+  {
+   "id": "supine_position",
+   "term": "supine position",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "앙와위, 바로 누운 자세",
+   "cat": "care"
+  },
+  {
+   "id": "prone_position",
+   "term": "prone position",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "복와위, 엎드린 자세",
+   "cat": "care"
+  },
+  {
+   "id": "lateral_position",
+   "term": "lateral position",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "측와위, 옆으로 누운 자세",
+   "cat": "care"
+  },
+  {
+   "id": "trendelenburg_position",
+   "term": "Trendelenburg position",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "트렌델렌버그 자세, 머리를 낮춘 자세",
+   "cat": "care"
+  },
+  {
+   "id": "lithotomy_position",
+   "term": "lithotomy position",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "쇄석위",
+   "cat": "care"
+  },
+  {
+   "id": "sims_position",
+   "term": "Sims position",
+   "termAlts": [
+    "Sims' position"
+   ],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "심스 자세",
+   "cat": "care"
+  },
+  {
+   "id": "range_of_motion",
+   "term": "range of motion",
+   "termAlts": [],
+   "abbr": "ROM",
+   "abbrAlts": [],
+   "ko": "관절 가동 범위",
+   "cat": "care"
+  },
+  {
+   "id": "ambulation",
+   "term": "ambulation",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "보행",
+   "cat": "care"
+  },
+  {
+   "id": "restraint",
+   "term": "restraint",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "억제대, 신체 보호대",
+   "cat": "care"
+  },
+  {
+   "id": "isolation",
+   "term": "isolation",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "격리",
+   "cat": "care"
+  },
+  {
+   "id": "aseptic_technique",
+   "term": "aseptic technique",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "무균술",
+   "cat": "care"
+  },
+  {
+   "id": "sterilization",
+   "term": "sterilization",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "멸균",
+   "cat": "care"
+  },
+  {
+   "id": "disinfection",
+   "term": "disinfection",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "소독",
+   "cat": "care"
+  },
+  {
+   "id": "hand_hygiene",
+   "term": "hand hygiene",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "손위생",
+   "cat": "care"
+  },
+  {
+   "id": "transfusion",
+   "term": "transfusion",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "수혈",
+   "cat": "care"
+  },
+  {
+   "id": "packed_red_blood_cells",
+   "term": "packed red blood cells",
+   "termAlts": [],
+   "abbr": "PRBC",
+   "abbrAlts": [],
+   "ko": "농축 적혈구",
+   "cat": "care"
+  },
+  {
+   "id": "fresh_frozen_plasma",
+   "term": "fresh frozen plasma",
+   "termAlts": [],
+   "abbr": "FFP",
+   "abbrAlts": [],
+   "ko": "신선 동결 혈장",
+   "cat": "care"
+  },
+  {
+   "id": "blood_sampling",
+   "term": "blood sampling",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "채혈",
+   "cat": "care"
+  },
+  {
+   "id": "venipuncture",
+   "term": "venipuncture",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "정맥천자, 정맥 채혈",
+   "cat": "care"
+  },
+  {
+   "id": "cardiopulmonary_resuscitation",
+   "term": "cardiopulmonary resuscitation",
+   "termAlts": [],
+   "abbr": "CPR",
+   "abbrAlts": [],
+   "ko": "심폐소생술",
+   "cat": "care"
+  },
+  {
+   "id": "automated_external_defibrillator",
+   "term": "automated external defibrillator",
+   "termAlts": [],
+   "abbr": "AED",
+   "abbrAlts": [],
+   "ko": "자동 심장충격기, 자동 제세동기",
+   "cat": "care"
+  },
+  {
+   "id": "defibrillation",
+   "term": "defibrillation",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "제세동",
+   "cat": "care"
+  },
+  {
+   "id": "intubation",
+   "term": "intubation",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "기관내 삽관",
+   "cat": "care"
+  },
+  {
+   "id": "extubation",
+   "term": "extubation",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "발관, 관 제거",
+   "cat": "care"
+  },
+  {
+   "id": "wound",
+   "term": "wound",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "상처",
+   "cat": "care"
+  },
+  {
+   "id": "suture",
+   "term": "suture",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "봉합",
+   "cat": "care"
+  },
+  {
+   "id": "stitch_out",
+   "term": "stitch out",
+   "termAlts": [],
+   "abbr": "S/O",
+   "abbrAlts": [],
+   "ko": "실밥 제거, 봉합사 제거",
+   "cat": "care"
+  },
+  {
+   "id": "hemovac",
+   "term": "Hemovac",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "헤모박, 배액관",
+   "cat": "care"
+  },
+  {
+   "id": "jackson_pratt_drain",
+   "term": "Jackson-Pratt drain",
+   "termAlts": [],
+   "abbr": "JP drain",
+   "abbrAlts": [],
+   "ko": "잭슨-프랫 배액관",
+   "cat": "care"
+  },
+  {
+   "id": "chest_tube",
+   "term": "chest tube",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "흉관",
+   "cat": "care"
+  },
+  {
+   "id": "compression_stocking",
+   "term": "compression stocking",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "압박 스타킹",
+   "cat": "care"
+  },
+  {
+   "id": "incentive_spirometer",
+   "term": "incentive spirometer",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "강화 폐활량계",
+   "cat": "care"
+  },
+  {
+   "id": "deep_breathing_exercise",
+   "term": "deep breathing exercise",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "심호흡 운동",
+   "cat": "care"
+  },
+  {
+   "id": "gargle",
+   "term": "gargle",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "가글, 구강 함수",
+   "cat": "care"
+  },
+  {
+   "id": "oral_care",
+   "term": "oral care",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "구강 간호",
+   "cat": "care"
+  },
+  {
+   "id": "perineal_care",
+   "term": "perineal care",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "회음부 간호",
+   "cat": "care"
+  },
+  {
+   "id": "bed_bath",
+   "term": "bed bath",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "침상 목욕",
+   "cat": "care"
+  },
+  {
+   "id": "fall_prevention",
+   "term": "fall prevention",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "낙상 예방",
+   "cat": "care"
+  },
+  {
+   "id": "consent",
+   "term": "consent",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "동의서",
+   "cat": "care"
+  },
+  {
+   "id": "nursing_record",
+   "term": "nursing record",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "간호기록",
+   "cat": "care"
+  },
+  {
+   "id": "handover",
+   "term": "handover",
+   "termAlts": [
+    "handoff"
+   ],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "인계",
+   "cat": "care"
+  },
+  {
+   "id": "rounding",
+   "term": "rounding",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "회진",
+   "cat": "care"
+  },
+  {
+   "id": "transfer",
+   "term": "transfer",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "전동, 전원",
+   "cat": "care"
+  },
+  {
+   "id": "triage",
+   "term": "triage",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "중증도 분류",
+   "cat": "care"
+  },
+  {
+   "id": "cesarean_section",
+   "term": "cesarean section",
+   "termAlts": [],
+   "abbr": "C-sec",
+   "abbrAlts": [
+    "C/S"
+   ],
+   "ko": "제왕절개",
+   "cat": "care"
+  },
+  {
+   "id": "normal_spontaneous_vaginal_delivery",
+   "term": "normal spontaneous vaginal delivery",
+   "termAlts": [],
+   "abbr": "NSVD",
+   "abbrAlts": [],
+   "ko": "정상 질식 분만",
+   "cat": "care"
+  },
+  {
+   "id": "last_menstrual_period",
+   "term": "last menstrual period",
+   "termAlts": [],
+   "abbr": "LMP",
+   "abbrAlts": [],
+   "ko": "마지막 월경일",
+   "cat": "care"
+  },
+  {
+   "id": "expected_date_of_confinement",
+   "term": "expected date of confinement",
+   "termAlts": [],
+   "abbr": "EDC",
+   "abbrAlts": [],
+   "ko": "분만 예정일",
+   "cat": "care"
+  },
+  {
+   "id": "newborn",
+   "term": "newborn",
+   "termAlts": [],
+   "abbr": "NB",
+   "abbrAlts": [],
+   "ko": "신생아",
+   "cat": "care"
+  },
+  {
+   "id": "apgar_score",
+   "term": "Apgar score",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "아프가 점수",
+   "cat": "care"
+  },
+  {
+   "id": "breastfeeding",
+   "term": "breastfeeding",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "모유수유",
+   "cat": "care"
+  },
+  {
+   "id": "tube_feeding",
+   "term": "tube feeding",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "경관 영양",
+   "cat": "care"
+  },
+  {
+   "id": "gastric_lavage",
+   "term": "gastric lavage",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "위세척",
+   "cat": "care"
+  },
+  {
+   "id": "catheterization",
+   "term": "catheterization",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "도뇨, 카테터 삽입",
+   "cat": "care"
+  },
+  {
+   "id": "intravenous_injection",
+   "term": "intravenous injection",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "정맥주사",
+   "cat": "care"
+  },
+  {
+   "id": "intramuscular_injection",
+   "term": "intramuscular injection",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "근육주사",
+   "cat": "care"
+  },
+  {
+   "id": "subcutaneous_injection",
+   "term": "subcutaneous injection",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "피하주사",
+   "cat": "care"
+  },
+  {
+   "id": "splint",
+   "term": "splint",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "부목",
+   "cat": "care"
+  },
+  {
+   "id": "cast",
+   "term": "cast",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "석고 붕대, 깁스",
+   "cat": "care"
+  },
+  {
+   "id": "traction",
+   "term": "traction",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "견인",
+   "cat": "care"
+  },
+  {
+   "id": "ice_pack",
+   "term": "ice pack",
+   "termAlts": [
+    "cold pack"
+   ],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "얼음 주머니, 냉찜질",
+   "cat": "care"
+  },
+  {
+   "id": "hot_pack",
+   "term": "hot pack",
+   "termAlts": [
+    "warm pack"
+   ],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "온찜질",
+   "cat": "care"
+  },
+  {
+   "id": "ostomy",
+   "term": "ostomy",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "장루, 인공 항문",
+   "cat": "care"
+  },
+  {
+   "id": "colostomy",
+   "term": "colostomy",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "결장루",
+   "cat": "care"
+  },
+  {
+   "id": "amputation",
+   "term": "amputation",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "절단",
+   "cat": "care"
+  },
+  {
+   "id": "anesthesia",
+   "term": "anesthesia",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "마취",
+   "cat": "care"
+  },
+  {
+   "id": "general_anesthesia",
+   "term": "general anesthesia",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "전신마취",
+   "cat": "care"
+  },
+  {
+   "id": "local_anesthesia",
+   "term": "local anesthesia",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "국소마취",
+   "cat": "care"
+  },
+  {
+   "id": "spinal_anesthesia",
+   "term": "spinal anesthesia",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "척추마취",
+   "cat": "care"
+  },
+  {
+   "id": "pre_op",
+   "term": "pre-op",
+   "termAlts": [
+    "preoperative"
+   ],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "수술 전",
+   "cat": "care"
+  },
+  {
+   "id": "post_op",
+   "term": "post-op",
+   "termAlts": [
+    "postoperative"
+   ],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "수술 후",
+   "cat": "care"
+  },
+  {
+   "id": "rehabilitation",
+   "term": "rehabilitation",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "재활",
+   "cat": "care"
+  },
+  {
+   "id": "education",
+   "term": "education",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "교육",
+   "cat": "care"
+  },
+  {
+   "id": "assessment",
+   "term": "assessment",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "사정, 평가",
+   "cat": "care"
+  },
+  {
+   "id": "intervention",
+   "term": "intervention",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "중재",
+   "cat": "care"
+  },
+  {
+   "id": "evaluation",
+   "term": "evaluation",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "평가",
+   "cat": "care"
+  },
+  {
+   "id": "monitoring",
+   "term": "monitoring",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "감시, 모니터링",
+   "cat": "care"
+  },
+  {
+   "id": "observation",
+   "term": "observation",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "관찰",
+   "cat": "care"
+  },
+  {
+   "id": "palpation",
+   "term": "palpation",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "촉진",
+   "cat": "care"
+  },
+  {
+   "id": "auscultation",
+   "term": "auscultation",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "청진",
+   "cat": "care"
+  },
+  {
+   "id": "percussion",
+   "term": "percussion",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "타진",
+   "cat": "care"
+  },
+  {
+   "id": "inspection",
+   "term": "inspection",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "시진",
+   "cat": "care"
+  },
+  {
+   "id": "operating_room",
+   "term": "operating room",
+   "termAlts": [],
+   "abbr": "OR",
+   "abbrAlts": [],
+   "ko": "수술실",
+   "cat": "dept"
+  },
+  {
+   "id": "emergency_room",
+   "term": "emergency room",
+   "termAlts": [],
+   "abbr": "ER",
+   "abbrAlts": [],
+   "ko": "응급실",
+   "cat": "dept"
+  },
+  {
+   "id": "intensive_care_unit",
+   "term": "intensive care unit",
+   "termAlts": [],
+   "abbr": "ICU",
+   "abbrAlts": [],
+   "ko": "중환자실",
+   "cat": "dept"
+  },
+  {
+   "id": "neonatal_intensive_care_unit",
+   "term": "neonatal intensive care unit",
+   "termAlts": [],
+   "abbr": "NICU",
+   "abbrAlts": [],
+   "ko": "신생아 중환자실",
+   "cat": "dept"
+  },
+  {
+   "id": "pediatric_intensive_care_unit",
+   "term": "pediatric intensive care unit",
+   "termAlts": [],
+   "abbr": "PICU",
+   "abbrAlts": [],
+   "ko": "소아 중환자실",
+   "cat": "dept"
+  },
+  {
+   "id": "coronary_care_unit",
+   "term": "coronary care unit",
+   "termAlts": [],
+   "abbr": "CCU",
+   "abbrAlts": [],
+   "ko": "심장 중환자실",
+   "cat": "dept"
+  },
+  {
+   "id": "surgical_intensive_care_unit",
+   "term": "surgical intensive care unit",
+   "termAlts": [],
+   "abbr": "SICU",
+   "abbrAlts": [],
+   "ko": "외과 중환자실",
+   "cat": "dept"
+  },
+  {
+   "id": "medical_intensive_care_unit",
+   "term": "medical intensive care unit",
+   "termAlts": [],
+   "abbr": "MICU",
+   "abbrAlts": [],
+   "ko": "내과 중환자실",
+   "cat": "dept"
+  },
+  {
+   "id": "outpatient_department",
+   "term": "outpatient department",
+   "termAlts": [],
+   "abbr": "OPD",
+   "abbrAlts": [],
+   "ko": "외래",
+   "cat": "dept"
+  },
+  {
+   "id": "ward",
+   "term": "ward",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "병동",
+   "cat": "dept"
+  },
+  {
+   "id": "post_anesthesia_care_unit",
+   "term": "post-anesthesia care unit",
+   "termAlts": [],
+   "abbr": "PACU",
+   "abbrAlts": [],
+   "ko": "회복실",
+   "cat": "dept"
+  },
+  {
+   "id": "delivery_room",
+   "term": "delivery room",
+   "termAlts": [],
+   "abbr": "DR",
+   "abbrAlts": [],
+   "ko": "분만실",
+   "cat": "dept"
+  },
+  {
+   "id": "nursery",
+   "term": "nursery",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "신생아실",
+   "cat": "dept"
+  },
+  {
+   "id": "central_supply_room",
+   "term": "central supply room",
+   "termAlts": [],
+   "abbr": "CS",
+   "abbrAlts": [
+    "CSR"
+   ],
+   "ko": "중앙공급실",
+   "cat": "dept"
+  },
+  {
+   "id": "pharmacy",
+   "term": "pharmacy",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "약국, 약제부",
+   "cat": "dept"
+  },
+  {
+   "id": "laboratory",
+   "term": "laboratory",
+   "termAlts": [],
+   "abbr": "Lab",
+   "abbrAlts": [],
+   "ko": "검사실",
+   "cat": "dept"
+  },
+  {
+   "id": "hospice",
+   "term": "hospice",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "호스피스",
+   "cat": "dept"
+  },
+  {
+   "id": "registered_nurse",
+   "term": "registered nurse",
+   "termAlts": [],
+   "abbr": "RN",
+   "abbrAlts": [],
+   "ko": "간호사",
+   "cat": "dept"
+  },
+  {
+   "id": "head_nurse",
+   "term": "head nurse",
+   "termAlts": [],
+   "abbr": "HN",
+   "abbrAlts": [],
+   "ko": "수간호사",
+   "cat": "dept"
+  },
+  {
+   "id": "charge_nurse",
+   "term": "charge nurse",
+   "termAlts": [],
+   "abbr": "CN",
+   "abbrAlts": [],
+   "ko": "책임 간호사",
+   "cat": "dept"
+  },
+  {
+   "id": "nursing_assistant",
+   "term": "nursing assistant",
+   "termAlts": [
+    "nurse aide"
+   ],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "간호조무사",
+   "cat": "dept"
+  },
+  {
+   "id": "medical_doctor",
+   "term": "medical doctor",
+   "termAlts": [],
+   "abbr": "MD",
+   "abbrAlts": [],
+   "ko": "의사",
+   "cat": "dept"
+  },
+  {
+   "id": "intern",
+   "term": "intern",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "인턴, 수련의",
+   "cat": "dept"
+  },
+  {
+   "id": "resident",
+   "term": "resident",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "레지던트, 전공의",
+   "cat": "dept"
+  },
+  {
+   "id": "attending_physician",
+   "term": "attending physician",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "주치의, 전문의",
+   "cat": "dept"
+  },
+  {
+   "id": "surgeon",
+   "term": "surgeon",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "외과의사",
+   "cat": "dept"
+  },
+  {
+   "id": "anesthesiologist",
+   "term": "anesthesiologist",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "마취과 의사",
+   "cat": "dept"
+  },
+  {
+   "id": "pharmacist",
+   "term": "pharmacist",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "약사",
+   "cat": "dept"
+  },
+  {
+   "id": "dietitian",
+   "term": "dietitian",
+   "termAlts": [
+    "nutritionist"
+   ],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "영양사",
+   "cat": "dept"
+  },
+  {
+   "id": "physical_therapy",
+   "term": "physical therapy",
+   "termAlts": [
+    "physical therapist"
+   ],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "물리치료, 물리치료사",
+   "cat": "dept"
+  },
+  {
+   "id": "occupational_therapy",
+   "term": "occupational therapy",
+   "termAlts": [
+    "occupational therapist"
+   ],
+   "abbr": "OT",
+   "abbrAlts": [],
+   "ko": "작업치료, 작업치료사",
+   "cat": "dept"
+  },
+  {
+   "id": "social_worker",
+   "term": "social worker",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "사회복지사",
+   "cat": "dept"
+  },
+  {
+   "id": "caregiver",
+   "term": "caregiver",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "간병인, 보호자",
+   "cat": "dept"
+  },
+  {
+   "id": "general_surgery",
+   "term": "general surgery",
+   "termAlts": [],
+   "abbr": "GS",
+   "abbrAlts": [],
+   "ko": "일반외과",
+   "cat": "dept"
+  },
+  {
+   "id": "orthopedic_surgery",
+   "term": "orthopedic surgery",
+   "termAlts": [],
+   "abbr": "OS",
+   "abbrAlts": [],
+   "ko": "정형외과",
+   "cat": "dept"
+  },
+  {
+   "id": "neurosurgery",
+   "term": "neurosurgery",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "신경외과",
+   "cat": "dept"
+  },
+  {
+   "id": "internal_medicine",
+   "term": "internal medicine",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "내과",
+   "cat": "dept"
+  },
+  {
+   "id": "obstetrics_and_gynecology",
+   "term": "obstetrics and gynecology",
+   "termAlts": [],
+   "abbr": "OBGY",
+   "abbrAlts": [
+    "OB/GYN"
+   ],
+   "ko": "산부인과",
+   "cat": "dept"
+  },
+  {
+   "id": "pediatrics",
+   "term": "pediatrics",
+   "termAlts": [],
+   "abbr": "PED",
+   "abbrAlts": [],
+   "ko": "소아청소년과",
+   "cat": "dept"
+  },
+  {
+   "id": "ear_nose_and_throat",
+   "term": "ear nose and throat",
+   "termAlts": [
+    "otolaryngology"
+   ],
+   "abbr": "ENT",
+   "abbrAlts": [],
+   "ko": "이비인후과",
+   "cat": "dept"
+  },
+  {
+   "id": "ophthalmology",
+   "term": "ophthalmology",
+   "termAlts": [],
+   "abbr": "OPH",
+   "abbrAlts": [],
+   "ko": "안과",
+   "cat": "dept"
+  },
+  {
+   "id": "dermatology",
+   "term": "dermatology",
+   "termAlts": [],
+   "abbr": "DERM",
+   "abbrAlts": [],
+   "ko": "피부과",
+   "cat": "dept"
+  },
+  {
+   "id": "psychiatry",
+   "term": "psychiatry",
+   "termAlts": [],
+   "abbr": "PSY",
+   "abbrAlts": [],
+   "ko": "정신건강의학과",
+   "cat": "dept"
+  },
+  {
+   "id": "urology",
+   "term": "urology",
+   "termAlts": [],
+   "abbr": "URO",
+   "abbrAlts": [],
+   "ko": "비뇨의학과",
+   "cat": "dept"
+  },
+  {
+   "id": "rehabilitation_medicine",
+   "term": "rehabilitation medicine",
+   "termAlts": [],
+   "abbr": "RM",
+   "abbrAlts": [],
+   "ko": "재활의학과",
+   "cat": "dept"
+  },
+  {
+   "id": "anesthesiology",
+   "term": "anesthesiology",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "마취통증의학과",
+   "cat": "dept"
+  },
+  {
+   "id": "family_medicine",
+   "term": "family medicine",
+   "termAlts": [],
+   "abbr": "FM",
+   "abbrAlts": [],
+   "ko": "가정의학과",
+   "cat": "dept"
+  },
+  {
+   "id": "radiology",
+   "term": "radiology",
+   "termAlts": [],
+   "abbr": "RAD",
+   "abbrAlts": [],
+   "ko": "영상의학과",
+   "cat": "dept"
+  },
+  {
+   "id": "cardiology",
+   "term": "cardiology",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "심장내과",
+   "cat": "dept"
+  },
+  {
+   "id": "neurology",
+   "term": "neurology",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "신경과",
+   "cat": "dept"
+  },
+  {
+   "id": "nephrology",
+   "term": "nephrology",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "신장내과",
+   "cat": "dept"
+  },
+  {
+   "id": "oncology",
+   "term": "oncology",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "종양내과",
+   "cat": "dept"
+  },
+  {
+   "id": "hematology",
+   "term": "hematology",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "혈액내과",
+   "cat": "dept"
+  },
+  {
+   "id": "gastroenterology",
+   "term": "gastroenterology",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "소화기내과",
+   "cat": "dept"
+  },
+  {
+   "id": "pulmonology",
+   "term": "pulmonology",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "호흡기내과",
+   "cat": "dept"
+  },
+  {
+   "id": "endocrinology",
+   "term": "endocrinology",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "내분비내과",
+   "cat": "dept"
+  },
+  {
+   "id": "plastic_surgery",
+   "term": "plastic surgery",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "성형외과",
+   "cat": "dept"
+  },
+  {
+   "id": "thoracic_surgery",
+   "term": "thoracic surgery",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "흉부외과",
+   "cat": "dept"
+  },
+  {
+   "id": "dentistry",
+   "term": "dentistry",
+   "termAlts": [],
+   "abbr": "",
+   "abbrAlts": [],
+   "ko": "치과",
+   "cat": "dept"
+  }
+ ]
+}

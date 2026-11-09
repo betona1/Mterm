@@ -1,0 +1,38 @@
+{
+    "name": "메디텀 - 간호 의학용어 게임",
+    "short_name": "메디텀",
+    "start_url": "./",
+    "display": "standalone",
+    "background_color": "#F4FBF9",
+    "theme_color": "#5ECDBE",
+    "description": "리링과 함께 약어·스펠링·의미를 게임처럼 외우는 간호사용 의학용어 앱",
+    "orientation": "portrait",
+    "prefer_related_applications": false,
+    "lang": "ko",
+    "id": "./",
+    "scope": "./",
+    "icons": [
+        {
+            "src": "icons/Icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-maskable-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "icons/Icon-maskable-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ]
+}
